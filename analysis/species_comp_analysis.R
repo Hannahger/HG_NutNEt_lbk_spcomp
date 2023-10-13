@@ -1,8 +1,12 @@
 # species_compa_analysis.R
-## script to analyze the nutnet lubbock site species comp data
+## script to analyze the NutNet LBK site species comp data
+## data spans from 2018 to 2023 
+## author : Hannah German 
 
 ## load packages
 library(tidyverse)
+library(ggplot2)  ## do not install again queen 
+library(dplyr)
 
 ## load data
 spcomp_data <- read.csv('../../NutNet_LBK/Data/SPP_comp/species_comp_withinfo.csv')
@@ -38,3 +42,21 @@ plot_information <- read.csv('../../NutNet_LBK/plot_types/plot_types.csv')[,2:3]
 head(plot_information)
 spcomp_diversity_plottype <- left_join(spcomp_diversity, plot_information)
 head(spcomp_diversity_plottype)
+
+
+
+
+
+
+
+
+
+### first attempt at analysis; was not good bud
+what <-spcomp_diversity_plottype%>%
+  group_by(Plot)
+ggplot (spcomp_diversity_plottype, aes(trt, diversity, color=factor(Year)))+
+  geom_point()
+Summ_spcomp_diversity_plottype <- spcomp_diversity_plottype %>% group_by(Plot)%>%
+  dplyr::select(Plot, Year, diversity) 
+AAH <- Summ_spcomp_diversity_plottype %>% group_by(Plot)%>% 
+  summarise(diversity=mean(diversity,na.rm = T)) %>% ungroup() ## did not work
