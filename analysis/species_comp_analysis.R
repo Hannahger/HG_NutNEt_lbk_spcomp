@@ -109,3 +109,5 @@ mod_evenness.year.trt <- lmer(log(evenness) ~ yearfac * nfac * pfac * kfac + (1|
 plot(resid(mod_evenness.year.trt) ~ fitted(mod_evenness.year.trt))
 Anova(mod_evenness.year.trt)  
 cld(emmeans(mod_evenness.year.trt, ~yearfac))
+
+## testing
