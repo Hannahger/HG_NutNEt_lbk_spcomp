@@ -13,6 +13,7 @@ library(emmeans)
 library(vegan)
 library(multcompView)
 library(multcomp)
+library(readxl)
 
 ## load data
 spcomp_data <- read.csv('../../NutNet_LBK/Data/SPP_comp/species_comp_withinfo.csv')
@@ -64,7 +65,7 @@ Summ_spcomp_diversity_ptype_wPlots <- spcomp_diversity_plottype %>% group_by(Plo
          mutate(n = ifelse(trt == "N" | trt == "NP" | trt == "NK" | trt == "NPK", 1, 0),
                 p = ifelse(trt == "P" | trt == "NP" | trt == "PK" | trt == "NPK", 1, 0),
                 k = ifelse(trt == "K" | trt == "NK" | trt == "PK" | trt == "NPK", 1, 0))
-plot(Summ_spcomp_diversity_plottype2)
+plot(Summ_spcomp_diversity_plottype)
 
 ### initial plots to asses basic trends before doing stats
 ggplot (Summ_spcomp_diversity_ptype_wPlots, aes(trt, diversity, color=factor(Year))) + 
@@ -90,8 +91,10 @@ Summ_spcomp_diversity_ptype_wPlots$yearfac <- as.factor(Summ_spcomp_diversity_pt
 Summ_spcomp_diversity_ptype_wPlots$block <- 'block2'
 Summ_spcomp_diversity_ptype_wPlots$block[Summ_spcomp_diversity_ptype_wPlots$Plot <15] <- 'block1'
 Summ_spcomp_diversity_ptype_wPlots$block[Summ_spcomp_diversity_ptype_wPlots$Plot >28] <- 'block3'
+
 #### remove certain plot types
 spcomp_data_4lmer <- subset(Summ_spcomp_diversity_ptype_wPlots, trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl')
+
 #### model time part 2
 mod_div.year.trt <- lmer(log(diversity) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), data = (spcomp_data_4lmer))  
 plot(resid(mod_div.year.trt) ~ fitted(mod_div.year.trt))
@@ -110,4 +113,11 @@ plot(resid(mod_evenness.year.trt) ~ fitted(mod_evenness.year.trt))
 Anova(mod_evenness.year.trt)  
 cld(emmeans(mod_evenness.year.trt, ~yearfac))
 
-## testing3
+## climate 
+KLBB_weather <- read_excel("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/KLBB_weather.xlsx")
+View(KLBB_weather)
+weather <- lmer(Year ~ precip_mm * temp_C + (1| Month), data = (KLBB_weather))
+plot(weather)
+Anova(weather)
+
+ggplot (KLBB_weather, aes(Year, precip_mm, fill=factor(Year))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~Year) + theme_bw()
