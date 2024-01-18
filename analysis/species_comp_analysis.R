@@ -95,7 +95,8 @@ Summ_spcomp_diversity_ptype_wPlots$block[Summ_spcomp_diversity_ptype_wPlots$Plot
 #### remove certain plot types
 spcomp_data_4lmer <- subset(Summ_spcomp_diversity_ptype_wPlots, trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl')
 
-#### model time part 2
+#### statistical models of diversity across years
+# testing the hypotheses about treatment impacts on community diversity, accounting for year-to-year differences
 mod_div.year.trt <- lmer(log(diversity) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), data = (spcomp_data_4lmer))  
 plot(resid(mod_div.year.trt) ~ fitted(mod_div.year.trt))
 Anova(mod_div.year.trt) 
@@ -105,6 +106,7 @@ cld(emmeans(mod_div.year.trt, ~nfac*kfac))
 mod_rich.year.trt <- lmer((richness) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), data = (spcomp_data_4lmer))  
 plot(resid(mod_rich.year.trt) ~ fitted(mod_rich.year.trt))
 Anova(mod_rich.year.trt)  
+cld(emmeans(mod_rich.year.trt, ~yearfac))
 cld(emmeans(mod_rich.year.trt, ~yearfac*nfac))
 cld(emmeans(mod_rich.year.trt, ~nfac*pfac))
 
@@ -113,13 +115,22 @@ plot(resid(mod_evenness.year.trt) ~ fitted(mod_evenness.year.trt))
 Anova(mod_evenness.year.trt)  
 cld(emmeans(mod_evenness.year.trt, ~yearfac))
 
+# TAKE HOME: treatments have no impact on any metric of diversity in any year
+# but there is significant year-to-year variation, with even (i.e., dry) years having
+# the greatest diversity, lowest richness, but highest evenness
+
+### NEXT STEP: evaluate the treatment impacts on each plant type
+### plant types we have: c4 perennial grasses, c3 annual forbs, c3 perennial forbs, perennial woody (simple for now, but could expand)
+### what needs to be done: assign plant type to each row within "spcomp_data_plants"
+head(spcomp_data_plants)
+
 ## climate 
 KLBB_weather <- read_excel("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/KLBB_weather.xlsx")
-View(KLBB_weather)
-weather <- lmer(Year ~ precip_mm * temp_C + (1| Month), data = (KLBB_weather))
-plot(weather)
-Anova(weather)
+head(KLBB_weather)
+KLBB_weather$precip_mm
 
-ggplot (KLBB_weather, aes(Year, precip_mm, fill=factor(Year))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~Year) + theme_bw()
+ggplot (KLBB_weather, aes(Year, precip_mm, fill=factor(Year))) + 
+  geom_point() + 
+  theme_bw()
 
 ## adding a comment
