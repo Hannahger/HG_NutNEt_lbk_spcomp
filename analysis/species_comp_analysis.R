@@ -121,3 +121,5 @@ plot(weather)
 Anova(weather)
 
 ggplot (KLBB_weather, aes(Year, precip_mm, fill=factor(Year))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~Year) + theme_bw()
+
+## adding a comment
