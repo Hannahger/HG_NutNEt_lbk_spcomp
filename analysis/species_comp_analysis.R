@@ -16,7 +16,7 @@ library(multcomp)
 library(readxl)
 
 ## load data
-spcomp_data <- read.csv('../../NutNet_LBK/Data/SPP_comp/species_comp_withinfo.csv')
+spcomp_data <- read.csv("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/species_comp.csv")
 
 ## remove litter and bareground estimates
 spcomp_data_plants <- subset(spcomp_data, binomial != 'litter' & binomial != 'bareground')
@@ -34,7 +34,7 @@ spcomp_data_plants$Percent.Cover.squared <- (spcomp_data_plants$Percent.Cover/10
 ## calculate diversity indices
 
 ### group by plot per year per day of year
-spcomp_data_groupby_plot_year <- group_by(spcomp_data_plants, Plot, Year, DOY)
+spcomp_data_groupby_plot_year <- group_by(spcomp_data_plants, Plot, Year, DOY, binomial, lifeform, lifespan, ps_path)
 
 ### richness per plot per year per day of year
 spcomp_data_plot_year_richness <- summarise(spcomp_data_groupby_plot_year, richness = n_distinct(binomial))
@@ -60,7 +60,7 @@ head(spcomp_diversity_plottype)
 Summ_spcomp_diversity_plottype <- spcomp_diversity_plottype %>% group_by(trt, Year) %>%
          summarise(diversity=mean(diversity,na.rm = T), evenness=mean(evenness, na.rm =T),richness = mean(richness, na.rm=T))
 
-Summ_spcomp_diversity_ptype_wPlots <- spcomp_diversity_plottype %>% group_by(Plot, Year, trt) %>%
+Summ_spcomp_diversity_ptype_wPlots <- spcomp_diversity_plottype %>% group_by(Plot, Year, trt, binomial, lifeform, lifespan, ps_path) %>%
          summarise(diversity=mean(diversity,na.rm = T), evenness=mean(evenness, na.rm =T),richness = mean(richness, na.rm=T)) %>%
          mutate(n = ifelse(trt == "N" | trt == "NP" | trt == "NK" | trt == "NPK", 1, 0),
                 p = ifelse(trt == "P" | trt == "NP" | trt == "PK" | trt == "NPK", 1, 0),
@@ -125,12 +125,8 @@ cld(emmeans(mod_evenness.year.trt, ~yearfac))
 head(spcomp_data_plants)
 
 ## climate 
-KLBB_weather <- read_excel("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/KLBB_weather.xlsx")
-head(KLBB_weather)
-KLBB_weather$precip_mm
+#KLBB_weather <- read_excel("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/KLBB_weather.xlsx")
+#head(KLBB_weather)
+#KLBB_weather$precip_mm
 
-ggplot (KLBB_weather, aes(Year, precip_mm, fill=factor(Year))) + 
-  geom_point() + 
-  theme_bw()
 
-## adding a comment
