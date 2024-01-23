@@ -1,4 +1,4 @@
-# species_compa_analysis.R
+# species_comp_analysis.R
 ## script to analyze the NutNet LBK site species comp data
 ## data spans from 2018 to 2023 
 ## author : Hannah German 
@@ -21,7 +21,7 @@ spcomp_data <- read.csv("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/species_comp.
 ## remove litter and bareground estimates
 spcomp_data_plants <- subset(spcomp_data, binomial != 'litter' & binomial != 'bareground')
 head(spcomp_data_plants)
-### Assessment of % cover within this datasheet due to outliers
+### Assessment of % cover within this datasheet due to outliers   ## No longer a concern (1/23) ##
 #### P15 2022: D=1666, E=555, R=3; %Cover=1, 2, 1, 70
 #### P23 2022: D=1428, E=357, R=4; %Cover=2, 7
 #### P24 2020: D=1111, E=1111, R=1; %Cover=3
@@ -62,14 +62,13 @@ Summ_spcomp_diversity_plottype <- spcomp_diversity_plottype %>% group_by(trt, Ye
 
 Summ_spcomp_diversity_ptype_wPlots <- spcomp_diversity_plottype %>% group_by(Plot, Year, trt, binomial, lifeform, lifespan, ps_path) %>%
          summarise(diversity=mean(diversity,na.rm = T), evenness=mean(evenness, na.rm =T),richness = mean(richness, na.rm=T)) %>%
-         mutate(n = ifelse(trt == "N" | trt == "NP" | trt == "NK" | trt == "NPK", 1, 0),
-                p = ifelse(trt == "P" | trt == "NP" | trt == "PK" | trt == "NPK", 1, 0),
-                k = ifelse(trt == "K" | trt == "NK" | trt == "PK" | trt == "NPK", 1, 0))
-plot(Summ_spcomp_diversity_plottype)
+         mutate(n = ifelse(trt == "N" | trt == "NP" | trt == "NK" | trt == "NPK" | trt == "NPK+Fence", 1, 0),
+                p = ifelse(trt == "P" | trt == "NP" | trt == "PK" | trt == "NPK" | trt == "NPK+Fence", 1, 0),
+                k = ifelse(trt == "K" | trt == "NK" | trt == "PK" | trt == "NPK" | trt == "NPK+Fence", 1, 0))
+plot(Summ_spcomp_diversity_ptype_wPlots)
 
 ### initial plots to asses basic trends before doing stats
-ggplot (Summ_spcomp_diversity_ptype_wPlots, aes(trt, diversity, color=factor(Year))) + 
-        geom_point()
+ggplot (Summ_spcomp_diversity_ptype_wPlots, aes(trt, diversity, color=factor(Year))) + geom_point()
 
 ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
         aes(Year, diversity, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") +  facet_wrap (~trt)
@@ -81,19 +80,23 @@ ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'
         aes(Year, richness, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~trt) + theme_bw()
 
 ### model making time 
+
 #### add in treatment binary factors
 Summ_spcomp_diversity_ptype_wPlots$nfac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$n)
 Summ_spcomp_diversity_ptype_wPlots$pfac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$p)
 Summ_spcomp_diversity_ptype_wPlots$kfac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$k)
 Summ_spcomp_diversity_ptype_wPlots$plotfac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$Plot)
 Summ_spcomp_diversity_ptype_wPlots$yearfac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$Year)
+
 #### add in blocks
 Summ_spcomp_diversity_ptype_wPlots$block <- 'block2'
 Summ_spcomp_diversity_ptype_wPlots$block[Summ_spcomp_diversity_ptype_wPlots$Plot <15] <- 'block1'
 Summ_spcomp_diversity_ptype_wPlots$block[Summ_spcomp_diversity_ptype_wPlots$Plot >28] <- 'block3'
 
+
 #### remove certain plot types
 spcomp_data_4lmer <- subset(Summ_spcomp_diversity_ptype_wPlots, trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl')
+
 
 #### statistical models of diversity across years
 # testing the hypotheses about treatment impacts on community diversity, accounting for year-to-year differences
@@ -123,6 +126,17 @@ cld(emmeans(mod_evenness.year.trt, ~yearfac))
 ### plant types we have: c4 perennial grasses, c3 annual forbs, c3 perennial forbs, perennial woody (simple for now, but could expand)
 ### what needs to be done: assign plant type to each row within "spcomp_data_plants"
 head(spcomp_data_plants)
+
+#### statistical models regarding the diversity of plant types across years 
+# testing hypothesis that treatment impacts on plant type (annual to outperform perennial, C3 to ____ C4, forbs to outperform grasses)
+
+# make binomial, lifeform, lifespan, and ps_path factors
+head(Summ_spcomp_diversity_ptype_wPlots)
+Summ_spcomp_diversity_ptype_wPlots$binomial_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$binomial)
+Summ_spcomp_diversity_ptype_wPlots$lifeform_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$lifeform)
+Summ_spcomp_diversity_ptype_wPlots$lifespan_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$lifespan)
+Summ_spcomp_diversity_ptype_wPlots$ps_path_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$ps_path)
+
 
 ## climate 
 #KLBB_weather <- read_excel("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/KLBB_weather.xlsx")
