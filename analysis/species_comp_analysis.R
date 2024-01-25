@@ -34,7 +34,7 @@ spcomp_data_plants$Percent.Cover.squared <- (spcomp_data_plants$Percent.Cover/10
 ## calculate diversity indices
 
 ### group by plot per year per day of year
-spcomp_data_groupby_plot_year <- group_by(spcomp_data_plants, Plot, Year, DOY, binomial, lifeform, lifespan, ps_path)
+spcomp_data_groupby_plot_year <- group_by(spcomp_data_plants, Plot, Year, DOY) # NGS: don't add species information here as we are summarising by plot
 
 ### richness per plot per year per day of year
 spcomp_data_plot_year_richness <- summarise(spcomp_data_groupby_plot_year, richness = n_distinct(binomial))
@@ -60,7 +60,7 @@ head(spcomp_diversity_plottype)
 Summ_spcomp_diversity_plottype <- spcomp_diversity_plottype %>% group_by(trt, Year) %>%
          summarise(diversity=mean(diversity,na.rm = T), evenness=mean(evenness, na.rm =T),richness = mean(richness, na.rm=T))
 
-Summ_spcomp_diversity_ptype_wPlots <- spcomp_diversity_plottype %>% group_by(Plot, Year, trt, binomial, lifeform, lifespan, ps_path) %>%
+Summ_spcomp_diversity_ptype_wPlots <- spcomp_diversity_plottype %>% group_by(Plot, Year, trt) %>%
          summarise(diversity=mean(diversity,na.rm = T), evenness=mean(evenness, na.rm =T),richness = mean(richness, na.rm=T)) %>%
          mutate(n = ifelse(trt == "N" | trt == "NP" | trt == "NK" | trt == "NPK" | trt == "NPK+Fence", 1, 0),
                 p = ifelse(trt == "P" | trt == "NP" | trt == "PK" | trt == "NPK" | trt == "NPK+Fence", 1, 0),
@@ -131,6 +131,7 @@ head(spcomp_data_plants)
 # testing hypothesis that treatment impacts on plant type (annual to outperform perennial, C3 to ____ C4, forbs to outperform grasses)
 
 # make binomial, lifeform, lifespan, and ps_path factors
+## leave to go over with NGS; I know what is going on but don't have time at the moment to fix (don't adjust things above)
 head(Summ_spcomp_diversity_ptype_wPlots)
 Summ_spcomp_diversity_ptype_wPlots$binomial_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$binomial)
 Summ_spcomp_diversity_ptype_wPlots$lifeform_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$lifeform)
