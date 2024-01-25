@@ -15,192 +15,192 @@ Day,Month,Year,DOY,Plot,Subplot,Code,Percent.Cover,binomial,lifeform,family,genu
 22,9,2018,265,33,NE,AmPS,1,Ambrosia psilostachya,Forb,Asteraceae,Ambrosia,psilostachya,perennial,C3
 22,9,2018,265,38,NW,AmPS,2,Ambrosia psilostachya,Forb,Asteraceae,Ambrosia,psilostachya,perennial,C3
 22,9,2018,265,39,NE,AmPS,1,Ambrosia psilostachya,Forb,Asteraceae,Ambrosia,psilostachya,perennial,C3
-22,9,2018,265,12,SW,ArHu,6,Argythamnia humilis,Forb,Euphorbiaceae,Argythamnia,humilis,perennial,
-22,9,2018,265,14,NE,ArHu,6,Argythamnia humilis,Forb,Euphorbiaceae,Argythamnia,humilis,perennial,
-17,9,2022,260,18,NW,ArHu,6,Argythamnia humilis,Forb,Euphorbiaceae,Argythamnia,humilis,perennial,
-27,8,2023,239,21,SE,ArHu,2,Argythamnia humilis,Forb,Euphorbiaceae,Argythamnia,humilis,perennial,
-8,6,2018,159,1,NE,BARE,8,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,2,NE,BARE,30,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,3,NW,BARE,32,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,4,NW,BARE,4,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,5,NW,BARE,38,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,9,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,10,SW,BARE,16,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,11,NE,BARE,4,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,12,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,14,NE,BARE,6,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,15,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,17,NW,BARE,23,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,19,NE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,20,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,23,NW,BARE,11,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,24,SE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,25,SW,BARE,70,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,26,NE,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,27,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,28,SW,BARE,50,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,29,NE,BARE,3,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,30,NW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,31,NE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,32,SE,BARE,20,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,34,NW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,35,SW,BARE,20,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,36,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,37,SW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,38,NW,BARE,7,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,39,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,40,SE,BARE,7,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,41,SE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-8,6,2018,159,42,SE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,1,NE,BARE,12,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,2,NE,BARE,30,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,3,NW,BARE,22,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,4,NW,BARE,20,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,5,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,7,NE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,9,SW,BARE,17,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,10,SW,BARE,20,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,11,NE,BARE,4,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,12,SW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,14,NE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,15,NW,BARE,3,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,16,SW,BARE,3,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,17,NW,BARE,40,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,18,NW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,19,NE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,20,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,21,SE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,23,NW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,25,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,26,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,27,SW,BARE,3,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,28,SW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,29,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,30,NW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,31,NE,BARE,7,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,32,SE,BARE,8,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,33,NE,BARE,12,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,35,SW,BARE,27,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,37,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,38,NW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,39,NE,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,40,SE,BARE,15,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,41,SE,BARE,8,bareground,BARE,bareground,bareground,NA,NA,
-22,9,2018,265,42,SE,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,2,NE,BARE,20,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,3,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,4,NW,BARE,7.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,5,NW,BARE,30,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,13,NW,BARE,6.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,12,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,11,NE,BARE,4,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,9,SW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,15,NW,BARE,0.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,16,SW,BARE,4.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,17,NW,BARE,11.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,18,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,20,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,28,SW,BARE,5.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,27,SW,BARE,7.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,24,SE,BARE,1.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,23,NW,BARE,20.4,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,30,NW,BARE,9,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,32,SE,BARE,17.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,33,NE,BARE,3,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,34,NE,BARE,17.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,35,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,42,SE,BARE,6.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,37,SW,BARE,4.5,bareground,BARE,bareground,bareground,NA,NA,
-6,10,2019,279,36,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,24,SE,BARE,20,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,28,SW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,20,SW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,18,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,17,NW,BARE,25,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,16,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,36,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,37,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,42,SE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,33,NE,BARE,8,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,32,SE,BARE,25,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,30,NW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,11,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,12,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,5,NW,BARE,25,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,4,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,3,NW,BARE,30,bareground,BARE,bareground,bareground,NA,NA,
-19,9,2020,263,2,NE,BARE,33,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,36,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,37,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,39,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,35,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,32,SE,BARE,30,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,30,NW,BARE,35,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,24,SE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,28,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,20,SW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,18,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,17,NW,BARE,35,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,15,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,8,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,9,SW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,5,NW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,4,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,3,NW,BARE,20,bareground,BARE,bareground,bareground,NA,NA,
-11,9,2021,254,2,NE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,37,SW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,39,NE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,32,SE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,30,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,29,NE,BARE,22,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,23,NW,BARE,35,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,24,SE,BARE,30,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,27,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,28,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,21,SE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,18,NW,BARE,28,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,17,NW,BARE,30,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,16,SW,BARE,35,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,15,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,8,NW,BARE,45,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,9,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,12,SW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,14,NE,BARE,3,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,5,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-17,9,2022,260,3,NW,BARE,7,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,35,NW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,27,SW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,36,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,29,NE,BARE,4,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,30,NW,BARE,3,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,37,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,39,NE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,32,SE,BARE,3,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,33,NE,BARE,4,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,34,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,42,SE,BARE,78,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,42,SE,BARE,15,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,35,NW,BARE,0,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,21,SE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,27,SW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,20,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,18,NW,BARE,35,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,17,NW,BARE,70,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,24,SE,BARE,12,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,23,NW,BARE,18,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,16,SW,BARE,50,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,15,NW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,28,SW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,13,NW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,12,SW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,5,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,11,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,4,NW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,3,NW,BARE,60,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,3,NW,BARE,3,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,9,SW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,2,NE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,
-27,8,2023,239,8,NW,BARE,45,bareground,BARE,bareground,bareground,NA,NA,
+22,9,2018,265,12,SW,ArHu,6,Argythamnia humilis,Forb,Euphorbiaceae,Argythamnia,humilis,perennial,C3
+22,9,2018,265,14,NE,ArHu,6,Argythamnia humilis,Forb,Euphorbiaceae,Argythamnia,humilis,perennial,C3
+17,9,2022,260,18,NW,ArHu,6,Argythamnia humilis,Forb,Euphorbiaceae,Argythamnia,humilis,perennial,C3
+27,8,2023,239,21,SE,ArHu,2,Argythamnia humilis,Forb,Euphorbiaceae,Argythamnia,humilis,perennial,C3
+8,6,2018,159,1,NE,BARE,8,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,2,NE,BARE,30,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,3,NW,BARE,32,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,4,NW,BARE,4,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,5,NW,BARE,38,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,9,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,10,SW,BARE,16,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,11,NE,BARE,4,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,12,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,14,NE,BARE,6,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,15,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,17,NW,BARE,23,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,19,NE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,20,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,23,NW,BARE,11,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,24,SE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,25,SW,BARE,70,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,26,NE,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,27,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,28,SW,BARE,50,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,29,NE,BARE,3,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,30,NW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,31,NE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,32,SE,BARE,20,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,34,NW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,35,SW,BARE,20,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,36,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,37,SW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,38,NW,BARE,7,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,39,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,40,SE,BARE,7,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,41,SE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+8,6,2018,159,42,SE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,1,NE,BARE,12,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,2,NE,BARE,30,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,3,NW,BARE,22,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,4,NW,BARE,20,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,5,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,7,NE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,9,SW,BARE,17,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,10,SW,BARE,20,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,11,NE,BARE,4,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,12,SW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,14,NE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,15,NW,BARE,3,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,16,SW,BARE,3,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,17,NW,BARE,40,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,18,NW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,19,NE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,20,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,21,SE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,23,NW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,25,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,26,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,27,SW,BARE,3,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,28,SW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,29,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,30,NW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,31,NE,BARE,7,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,32,SE,BARE,8,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,33,NE,BARE,12,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,35,SW,BARE,27,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,37,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,38,NW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,39,NE,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,40,SE,BARE,15,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,41,SE,BARE,8,bareground,BARE,bareground,bareground,NA,NA,NA
+22,9,2018,265,42,SE,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,2,NE,BARE,20,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,3,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,4,NW,BARE,7.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,5,NW,BARE,30,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,13,NW,BARE,6.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,12,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,11,NE,BARE,4,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,9,SW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,15,NW,BARE,0.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,16,SW,BARE,4.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,17,NW,BARE,11.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,18,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,20,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,28,SW,BARE,5.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,27,SW,BARE,7.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,24,SE,BARE,1.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,23,NW,BARE,20.4,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,30,NW,BARE,9,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,32,SE,BARE,17.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,33,NE,BARE,3,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,34,NE,BARE,17.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,35,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,42,SE,BARE,6.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,37,SW,BARE,4.5,bareground,BARE,bareground,bareground,NA,NA,NA
+6,10,2019,279,36,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,24,SE,BARE,20,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,28,SW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,20,SW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,18,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,17,NW,BARE,25,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,16,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,36,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,37,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,42,SE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,33,NE,BARE,8,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,32,SE,BARE,25,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,30,NW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,11,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,12,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,5,NW,BARE,25,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,4,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,3,NW,BARE,30,bareground,BARE,bareground,bareground,NA,NA,NA
+19,9,2020,263,2,NE,BARE,33,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,36,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,37,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,39,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,35,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,32,SE,BARE,30,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,30,NW,BARE,35,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,24,SE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,28,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,20,SW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,18,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,17,NW,BARE,35,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,15,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,8,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,9,SW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,5,NW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,4,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,3,NW,BARE,20,bareground,BARE,bareground,bareground,NA,NA,NA
+11,9,2021,254,2,NE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,37,SW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,39,NE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,32,SE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,30,NW,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,29,NE,BARE,22,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,23,NW,BARE,35,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,24,SE,BARE,30,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,27,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,28,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,21,SE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,18,NW,BARE,28,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,17,NW,BARE,30,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,16,SW,BARE,35,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,15,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,8,NW,BARE,45,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,9,SW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,12,SW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,14,NE,BARE,3,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,5,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+17,9,2022,260,3,NW,BARE,7,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,35,NW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,27,SW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,36,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,29,NE,BARE,4,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,30,NW,BARE,3,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,37,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,39,NE,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,32,SE,BARE,3,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,33,NE,BARE,4,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,34,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,42,SE,BARE,78,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,42,SE,BARE,15,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,35,NW,BARE,0,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,21,SE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,27,SW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,20,SW,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,18,NW,BARE,35,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,17,NW,BARE,70,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,24,SE,BARE,12,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,23,NW,BARE,18,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,16,SW,BARE,50,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,15,NW,BARE,6,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,28,SW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,13,NW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,12,SW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,5,NW,BARE,5,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,11,NE,BARE,2,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,4,NW,BARE,1,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,3,NW,BARE,60,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,3,NW,BARE,3,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,9,SW,BARE,15,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,2,NE,BARE,10,bareground,BARE,bareground,bareground,NA,NA,NA
+27,8,2023,239,8,NW,BARE,45,bareground,BARE,bareground,bareground,NA,NA,NA
 17,9,2022,260,4,NW,BaSc,1,Bassia scorparia,Forb,Chenopodiacea,Bassia,Scorparia,annual,C4
 17,9,2022,260,2,NE,BaSc,17,Bassia scorparia,Forb,Chenopodiacea,Bassia,Scorparia,annual,C4
 8,6,2018,159,1,NE,BoGr,25,Bouteloua gracilis,Grass,Poaceae,Bouteloua,gracilis,perennial,C4
@@ -549,653 +549,653 @@ Day,Month,Year,DOY,Plot,Subplot,Code,Percent.Cover,binomial,lifeform,family,genu
 19,9,2020,263,39,NE,DePi,2,Descurainia pinnata,Forb,Brassicaceae,Descurainia,Pinnata,annual,C3
 19,9,2020,263,35,NW,DePi,1,Descurainia pinnata,Forb,Brassicaceae,Descurainia,Pinnata,annual,C3
 19,9,2020,263,2,NE,DePi,2,Descurainia pinnata,Forb,Brassicaceae,Descurainia,Pinnata,annual,C3
-6,10,2019,279,12,SW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-6,10,2019,279,11,NE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-6,10,2019,279,15,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-6,10,2019,279,17,NW,GlPu,2.5,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-6,10,2019,279,21,SE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-6,10,2019,279,28,SW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-6,10,2019,279,34,NE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-6,10,2019,279,35,NW,GlPu,3,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-6,10,2019,279,37,SW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-17,9,2022,260,42,SE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-17,9,2022,260,35,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-17,9,2022,260,30,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-17,9,2022,260,24,SE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-17,9,2022,260,18,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-17,9,2022,260,8,SW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-17,9,2022,260,14,NE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-17,9,2022,260,4,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-17,9,2022,260,3,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,
-6,10,2019,279,13,NW,GuSa,17.5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-6,10,2019,279,9,SW,GuSa,5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-6,10,2019,279,16,SW,GuSa,4,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-6,10,2019,279,20,SW,GuSa,15,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-6,10,2019,279,28,SW,GuSa,42.5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-6,10,2019,279,27,SW,GuSa,3.5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-6,10,2019,279,30,NW,GuSa,5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-6,10,2019,279,34,NE,GuSa,5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-6,10,2019,279,35,NW,GuSa,7.5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-6,10,2019,279,42,SE,GuSa,2,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-6,10,2019,279,37,SW,GuSa,4,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,23,NE,GuSa,30,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,28,SW,GuSa,10,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,21,SE,GuSa,30,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,20,SW,GuSa,20,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,18,NW,GuSa,40,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,17,NW,GuSa,5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,37,SW,GuSa,20,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,42,SE,GuSa,7,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,35,NW,GuSa,75,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,34,NE,GuSa,75,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,33,NE,GuSa,22,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,30,NW,GuSa,25,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,9,SW,GuSa,50,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,11,NE,GuSa,27,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,5,NW,GuSa,25,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-19,9,2020,263,3,NW,GuSa,22,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-27,8,2023,239,35,NW,GuSa,25,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-27,8,2023,239,35,NW,GuSa,3,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-27,8,2023,239,3,NW,GuSa,30,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,
-8,6,2018,159,2,NE,LaCo,6,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,5,NW,LaCo,3,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,7,NE,LaCo,21,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,9,SW,LaCo,6,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,11,NE,LaCo,2,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,18,NW,LaCo,3,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,23,NW,LaCo,3,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,25,SW,LaCo,4,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,26,NE,LaCo,6,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,28,SW,LaCo,7,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,30,NW,LaCo,28,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,31,NE,LaCo,1,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,33,NE,LaCo,2,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,41,SE,LaCo,7,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-22,9,2018,265,6,SE,LaCo,12,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-22,9,2018,265,28,SW,LaCo,10,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-22,9,2018,265,30,NW,LaCo,2,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-22,9,2018,265,31,NE,LaCo,1,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-22,9,2018,265,40,SE,LaCo,5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-22,9,2018,265,41,SE,LaCo,2,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,2,NE,LaCo,50,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,3,NW,LaCo,50,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,4,NW,LaCo,40,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,5,NW,LaCo,30,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,14,NE,LaCo,80,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,13,NW,LaCo,47.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,12,SW,LaCo,35,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,11,NE,LaCo,27.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,9,SW,LaCo,75,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,8,NW,LaCo,61.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,15,NW,LaCo,70,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,16,SW,LaCo,60,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,17,NW,LaCo,12.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,18,NW,LaCo,62.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,20,SW,LaCo,29,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,21,SE,LaCo,42.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,28,SW,LaCo,15,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,27,SW,LaCo,32.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,24,SE,LaCo,19.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,23,NW,LaCo,25,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,29,NE,LaCo,55,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,30,NW,LaCo,17.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,32,SE,LaCo,47.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,33,NE,LaCo,67.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,34,NE,LaCo,75,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,35,NW,LaCo,40,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,42,SE,LaCo,55,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,39,NE,LaCo,65,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,37,SW,LaCo,62.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-6,10,2019,279,36,SW,LaCo,72.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-19,9,2020,263,23,NE,LaCo,3,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-19,9,2020,263,33,NE,LaCo,8,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-19,9,2020,263,11,NW,LaCo,2,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-19,9,2020,263,12,SW,LaCo,15,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-19,9,2020,263,5,NW,LaCo,1,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-19,9,2020,263,3,NW,LaCo,5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-19,9,2020,263,2,NE,LaCo,22,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,
-8,6,2018,159,1,NE,LITT,92,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,2,NE,LITT,70,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,3,NW,LITT,60,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,4,NW,LITT,98,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,5,NW,LITT,33,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,6,SE,LITT,100,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,7,NE,LITT,90,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,8,NW,LITT,100,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,9,SW,LITT,95,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,10,SW,LITT,87,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,11,NE,LITT,82,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,12,SW,LITT,85,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,13,NW,LITT,110,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,14,NE,LITT,95,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,15,NW,LITT,80,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,16,SW,LITT,100,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,17,NW,LITT,77,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,18,NW,LITT,100,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,19,NE,LITT,85,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,20,SW,LITT,98,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,21,SE,LITT,100,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,22,SE,LITT,95,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,23,NW,LITT,85,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,24,SE,LITT,82,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,25,SW,LITT,30,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,26,NE,LITT,100,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,27,SW,LITT,95,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,28,SW,LITT,50,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,29,NE,LITT,85,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,30,NW,LITT,96,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,31,NE,LITT,78,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,32,SE,LITT,80,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,33,NE,LITT,100,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,34,NW,LITT,95,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,35,SW,LITT,50,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,36,SW,LITT,98,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,37,SW,LITT,99,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,38,NW,LITT,83,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,39,NE,LITT,98,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,40,SE,LITT,82,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,41,SE,LITT,95,litter,LITT,litter,litter,NA,NA,
-8,6,2018,159,42,SE,LITT,95,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,1,NE,LITT,10,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,2,NE,LITT,20,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,3,NW,LITT,15,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,4,NW,LITT,45,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,5,NW,LITT,27,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,6,SE,LITT,77,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,7,NE,LITT,80,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,8,NW,LITT,17,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,9,SW,LITT,6,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,10,SW,LITT,67,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,11,NE,LITT,55,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,12,SW,LITT,52,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,13,NW,LITT,80,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,14,NE,LITT,70,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,15,NW,LITT,50,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,16,SW,LITT,50,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,17,NW,LITT,1,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,18,NW,LITT,80,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,19,NE,LITT,50,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,20,SW,LITT,50,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,21,SE,LITT,15,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,22,SE,LITT,50,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,23,NW,LITT,32,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,24,SE,LITT,50,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,25,SW,LITT,60,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,26,NE,LITT,45,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,27,SW,LITT,40,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,28,SW,LITT,90,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,29,NE,LITT,31,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,30,NW,LITT,92,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,31,NE,LITT,98,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,32,SE,LITT,12,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,33,NE,LITT,65,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,34,NW,LITT,67,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,35,SW,LITT,38,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,36,SW,LITT,30,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,37,SW,LITT,85,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,38,NW,LITT,95,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,39,NE,LITT,17,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,40,SE,LITT,52,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,41,SE,LITT,72,litter,LITT,litter,litter,NA,NA,
-22,9,2018,265,42,SE,LITT,26,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,2,NE,LITT,80,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,3,NW,LITT,68.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,4,NW,LITT,70,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,5,NW,LITT,67.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,14,NE,LITT,82.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,13,NW,LITT,85,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,12,SW,LITT,85,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,11,NE,LITT,75,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,9,SW,LITT,75,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,8,NW,LITT,27.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,15,NW,LITT,70,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,16,SW,LITT,37.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,17,NW,LITT,55,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,18,NW,LITT,87.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,20,SW,LITT,42.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,21,SE,LITT,56,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,28,SW,LITT,90,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,27,SW,LITT,77.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,24,SE,LITT,42.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,23,NW,LITT,35,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,29,NE,LITT,95,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,30,NW,LITT,62.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,32,SE,LITT,75,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,33,NE,LITT,88.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,34,NE,LITT,70,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,35,NW,LITT,34,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,42,SE,LITT,15,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,39,NE,LITT,50,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,37,SW,LITT,42.5,litter,LITT,litter,litter,NA,NA,
-6,10,2019,279,36,SW,LITT,91.5,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,23,NE,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,24,SE,LITT,20,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,27,SW,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,28,SW,LITT,90,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,21,SE,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,20,SW,LITT,85,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,18,NW,LITT,95,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,17,NW,LITT,75,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,16,SW,LITT,95,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,15,NW,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,36,SW,LITT,95,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,37,SW,LITT,95,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,39,NE,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,42,SE,LITT,95,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,35,NW,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,34,NE,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,33,NE,LITT,92,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,32,SE,LITT,75,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,30,NW,LITT,85,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,29,NE,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,8,NW,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,9,SW,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,11,NW,LITT,95,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,12,SW,LITT,95,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,13,NW,LITT,100,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,14,NE,LITT,50,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,5,NW,LITT,75,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,4,NW,LITT,95,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,3,NW,LITT,70,litter,LITT,litter,litter,NA,NA,
-19,9,2020,263,2,NE,LITT,43,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,36,SW,LITT,93,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,37,SW,LITT,90,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,39,NE,LITT,93,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,42,SE,LITT,95,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,35,NW,LITT,90,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,34,NE,LITT,95,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,33,NE,LITT,95,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,32,SE,LITT,65,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,30,NW,LITT,40,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,29,NE,LITT,95,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,23,SW,LITT,95,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,24,SE,LITT,85,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,27,SW,LITT,95,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,28,SW,LITT,90,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,21,SE,LITT,95,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,20,SW,LITT,85,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,18,NW,LITT,90,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,17,NW,LITT,50,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,16,SW,LITT,95,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,15,NW,LITT,85,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,8,NW,LITT,78,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,9,SE,LITT,80,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,12,SW,LITT,90,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,11,NE,LITT,98,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,14,NE,LITT,95,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,13,NW,LITT,95,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,5,NW,LITT,77,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,4,NW,LITT,84,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,3,NW,LITT,65,litter,LITT,litter,litter,NA,NA,
-11,9,2021,254,2,NE,LITT,70,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,36,SW,LITT,60,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,37,SW,LITT,60,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,39,NE,LITT,20,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,42,SE,LITT,100,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,35,NW,LITT,100,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,34,NE,LITT,100,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,33,NE,LITT,100,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,32,SE,LITT,40,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,30,NW,LITT,50,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,29,NE,LITT,40,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,23,NW,LITT,65,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,24,SE,LITT,70,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,27,SW,LITT,50,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,28,SW,LITT,95,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,21,SE,LITT,55,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,20,SW,LITT,100,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,18,NW,LITT,37,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,17,NW,LITT,30,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,16,SW,LITT,35,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,15,NW,LITT,85,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,8,NW,LITT,25,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,9,SW,LITT,90,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,11,NE,LITT,80,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,12,SW,LITT,55,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,13,NW,LITT,65,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,14,NE,LITT,65,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,5,NW,LITT,60,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,4,NW,LITT,90,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,3,NW,LITT,70,litter,LITT,litter,litter,NA,NA,
-17,9,2022,260,2,NE,LITT,70,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,12,SW,LITT,85,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,14,NE,LITT,94,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,35,NW,LITT,65,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,27,SW,LITT,98,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,36,SW,LITT,98,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,29,NE,LITT,96,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,30,NW,LITT,96,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,37,SW,LITT,31,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,39,NE,LITT,93,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,32,SE,LITT,94,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,33,NE,LITT,96,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,34,NE,LITT,99,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,35,NW,LITT,97,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,21,SE,LITT,96,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,27,SW,LITT,90,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,21,SE,LITT,99,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,20,SW,LITT,92,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,18,NW,LITT,65,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,17,NW,LITT,29,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,24,SE,LITT,80,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,23,NW,LITT,70,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,16,SW,LITT,50,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,15,NW,LITT,74,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,28,SW,LITT,97,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,13,NW,LITT,98,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,12,SW,LITT,50,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,5,NW,LITT,80,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,11,NE,LITT,97,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,4,NW,LITT,40,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,9,SW,LITT,80,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,2,NE,LITT,90,litter,LITT,litter,litter,NA,NA,
-27,8,2023,239,8,NW,LITT,50,litter,LITT,litter,litter,NA,NA,
+6,10,2019,279,12,SW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+6,10,2019,279,11,NE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+6,10,2019,279,15,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+6,10,2019,279,17,NW,GlPu,2.5,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+6,10,2019,279,21,SE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+6,10,2019,279,28,SW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+6,10,2019,279,34,NE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+6,10,2019,279,35,NW,GlPu,3,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+6,10,2019,279,37,SW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+17,9,2022,260,42,SE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+17,9,2022,260,35,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+17,9,2022,260,30,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+17,9,2022,260,24,SE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+17,9,2022,260,18,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+17,9,2022,260,8,SW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+17,9,2022,260,14,NE,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+17,9,2022,260,4,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+17,9,2022,260,3,NW,GlPu,1,Glandularia pumila,Forb,Verbenaceae,Glandularia,Pumila,annual,C3
+6,10,2019,279,13,NW,GuSa,17.5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+6,10,2019,279,9,SW,GuSa,5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+6,10,2019,279,16,SW,GuSa,4,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+6,10,2019,279,20,SW,GuSa,15,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+6,10,2019,279,28,SW,GuSa,42.5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+6,10,2019,279,27,SW,GuSa,3.5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+6,10,2019,279,30,NW,GuSa,5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+6,10,2019,279,34,NE,GuSa,5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+6,10,2019,279,35,NW,GuSa,7.5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+6,10,2019,279,42,SE,GuSa,2,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+6,10,2019,279,37,SW,GuSa,4,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,23,NE,GuSa,30,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,28,SW,GuSa,10,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,21,SE,GuSa,30,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,20,SW,GuSa,20,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,18,NW,GuSa,40,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,17,NW,GuSa,5,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,37,SW,GuSa,20,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,42,SE,GuSa,7,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,35,NW,GuSa,75,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,34,NE,GuSa,75,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,33,NE,GuSa,22,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,30,NW,GuSa,25,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,9,SW,GuSa,50,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,11,NE,GuSa,27,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,5,NW,GuSa,25,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+19,9,2020,263,3,NW,GuSa,22,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+27,8,2023,239,35,NW,GuSa,25,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+27,8,2023,239,35,NW,GuSa,3,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+27,8,2023,239,3,NW,GuSa,30,Gutierrezia sarothrae,Forb,Asteraceae,Gutierrezia ,Sarothrae,perennial,C3
+8,6,2018,159,2,NE,LaCo,6,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,5,NW,LaCo,3,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,7,NE,LaCo,21,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,9,SW,LaCo,6,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,11,NE,LaCo,2,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,18,NW,LaCo,3,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,23,NW,LaCo,3,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,25,SW,LaCo,4,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,26,NE,LaCo,6,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,28,SW,LaCo,7,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,30,NW,LaCo,28,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,31,NE,LaCo,1,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,33,NE,LaCo,2,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,41,SE,LaCo,7,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+22,9,2018,265,6,SE,LaCo,12,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+22,9,2018,265,28,SW,LaCo,10,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+22,9,2018,265,30,NW,LaCo,2,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+22,9,2018,265,31,NE,LaCo,1,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+22,9,2018,265,40,SE,LaCo,5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+22,9,2018,265,41,SE,LaCo,2,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,2,NE,LaCo,50,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,3,NW,LaCo,50,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,4,NW,LaCo,40,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,5,NW,LaCo,30,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,14,NE,LaCo,80,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,13,NW,LaCo,47.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,12,SW,LaCo,35,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,11,NE,LaCo,27.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,9,SW,LaCo,75,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,8,NW,LaCo,61.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,15,NW,LaCo,70,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,16,SW,LaCo,60,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,17,NW,LaCo,12.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,18,NW,LaCo,62.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,20,SW,LaCo,29,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,21,SE,LaCo,42.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,28,SW,LaCo,15,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,27,SW,LaCo,32.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,24,SE,LaCo,19.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,23,NW,LaCo,25,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,29,NE,LaCo,55,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,30,NW,LaCo,17.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,32,SE,LaCo,47.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,33,NE,LaCo,67.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,34,NE,LaCo,75,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,35,NW,LaCo,40,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,42,SE,LaCo,55,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,39,NE,LaCo,65,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,37,SW,LaCo,62.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+6,10,2019,279,36,SW,LaCo,72.5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+19,9,2020,263,23,NE,LaCo,3,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+19,9,2020,263,33,NE,LaCo,8,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+19,9,2020,263,11,NW,LaCo,2,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+19,9,2020,263,12,SW,LaCo,15,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+19,9,2020,263,5,NW,LaCo,1,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+19,9,2020,263,3,NW,LaCo,5,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+19,9,2020,263,2,NE,LaCo,22,Laennecia coulteri,Forb,Asteraceae,Laennecia,coulteri,annual,C3
+8,6,2018,159,1,NE,LITT,92,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,2,NE,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,3,NW,LITT,60,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,4,NW,LITT,98,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,5,NW,LITT,33,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,6,SE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,7,NE,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,8,NW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,9,SW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,10,SW,LITT,87,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,11,NE,LITT,82,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,12,SW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,13,NW,LITT,110,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,14,NE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,15,NW,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,16,SW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,17,NW,LITT,77,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,18,NW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,19,NE,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,20,SW,LITT,98,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,21,SE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,22,SE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,23,NW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,24,SE,LITT,82,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,25,SW,LITT,30,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,26,NE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,27,SW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,28,SW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,29,NE,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,30,NW,LITT,96,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,31,NE,LITT,78,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,32,SE,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,33,NE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,34,NW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,35,SW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,36,SW,LITT,98,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,37,SW,LITT,99,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,38,NW,LITT,83,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,39,NE,LITT,98,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,40,SE,LITT,82,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,41,SE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+8,6,2018,159,42,SE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,1,NE,LITT,10,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,2,NE,LITT,20,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,3,NW,LITT,15,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,4,NW,LITT,45,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,5,NW,LITT,27,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,6,SE,LITT,77,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,7,NE,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,8,NW,LITT,17,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,9,SW,LITT,6,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,10,SW,LITT,67,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,11,NE,LITT,55,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,12,SW,LITT,52,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,13,NW,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,14,NE,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,15,NW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,16,SW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,17,NW,LITT,1,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,18,NW,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,19,NE,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,20,SW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,21,SE,LITT,15,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,22,SE,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,23,NW,LITT,32,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,24,SE,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,25,SW,LITT,60,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,26,NE,LITT,45,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,27,SW,LITT,40,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,28,SW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,29,NE,LITT,31,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,30,NW,LITT,92,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,31,NE,LITT,98,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,32,SE,LITT,12,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,33,NE,LITT,65,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,34,NW,LITT,67,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,35,SW,LITT,38,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,36,SW,LITT,30,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,37,SW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,38,NW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,39,NE,LITT,17,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,40,SE,LITT,52,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,41,SE,LITT,72,litter,LITT,litter,litter,NA,NA,NA
+22,9,2018,265,42,SE,LITT,26,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,2,NE,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,3,NW,LITT,68.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,4,NW,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,5,NW,LITT,67.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,14,NE,LITT,82.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,13,NW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,12,SW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,11,NE,LITT,75,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,9,SW,LITT,75,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,8,NW,LITT,27.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,15,NW,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,16,SW,LITT,37.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,17,NW,LITT,55,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,18,NW,LITT,87.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,20,SW,LITT,42.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,21,SE,LITT,56,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,28,SW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,27,SW,LITT,77.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,24,SE,LITT,42.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,23,NW,LITT,35,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,29,NE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,30,NW,LITT,62.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,32,SE,LITT,75,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,33,NE,LITT,88.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,34,NE,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,35,NW,LITT,34,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,42,SE,LITT,15,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,39,NE,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,37,SW,LITT,42.5,litter,LITT,litter,litter,NA,NA,NA
+6,10,2019,279,36,SW,LITT,91.5,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,23,NE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,24,SE,LITT,20,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,27,SW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,28,SW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,21,SE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,20,SW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,18,NW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,17,NW,LITT,75,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,16,SW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,15,NW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,36,SW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,37,SW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,39,NE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,42,SE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,35,NW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,34,NE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,33,NE,LITT,92,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,32,SE,LITT,75,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,30,NW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,29,NE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,8,NW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,9,SW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,11,NW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,12,SW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,13,NW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,14,NE,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,5,NW,LITT,75,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,4,NW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,3,NW,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+19,9,2020,263,2,NE,LITT,43,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,36,SW,LITT,93,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,37,SW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,39,NE,LITT,93,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,42,SE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,35,NW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,34,NE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,33,NE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,32,SE,LITT,65,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,30,NW,LITT,40,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,29,NE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,23,SW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,24,SE,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,27,SW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,28,SW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,21,SE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,20,SW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,18,NW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,17,NW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,16,SW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,15,NW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,8,NW,LITT,78,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,9,SE,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,12,SW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,11,NE,LITT,98,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,14,NE,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,13,NW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,5,NW,LITT,77,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,4,NW,LITT,84,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,3,NW,LITT,65,litter,LITT,litter,litter,NA,NA,NA
+11,9,2021,254,2,NE,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,36,SW,LITT,60,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,37,SW,LITT,60,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,39,NE,LITT,20,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,42,SE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,35,NW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,34,NE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,33,NE,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,32,SE,LITT,40,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,30,NW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,29,NE,LITT,40,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,23,NW,LITT,65,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,24,SE,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,27,SW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,28,SW,LITT,95,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,21,SE,LITT,55,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,20,SW,LITT,100,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,18,NW,LITT,37,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,17,NW,LITT,30,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,16,SW,LITT,35,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,15,NW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,8,NW,LITT,25,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,9,SW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,11,NE,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,12,SW,LITT,55,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,13,NW,LITT,65,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,14,NE,LITT,65,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,5,NW,LITT,60,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,4,NW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,3,NW,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+17,9,2022,260,2,NE,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,12,SW,LITT,85,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,14,NE,LITT,94,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,35,NW,LITT,65,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,27,SW,LITT,98,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,36,SW,LITT,98,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,29,NE,LITT,96,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,30,NW,LITT,96,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,37,SW,LITT,31,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,39,NE,LITT,93,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,32,SE,LITT,94,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,33,NE,LITT,96,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,34,NE,LITT,99,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,35,NW,LITT,97,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,21,SE,LITT,96,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,27,SW,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,21,SE,LITT,99,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,20,SW,LITT,92,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,18,NW,LITT,65,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,17,NW,LITT,29,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,24,SE,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,23,NW,LITT,70,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,16,SW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,15,NW,LITT,74,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,28,SW,LITT,97,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,13,NW,LITT,98,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,12,SW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,5,NW,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,11,NE,LITT,97,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,4,NW,LITT,40,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,9,SW,LITT,80,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,2,NE,LITT,90,litter,LITT,litter,litter,NA,NA,NA
+27,8,2023,239,8,NW,LITT,50,litter,LITT,litter,litter,NA,NA,NA
 22,9,2018,265,2,NE,PaOb,2,Panicum obtusum,Grass,Poaceae,Panicum,obtusum,perennial,C4
-8,6,2018,159,32,SE,PoMu,1,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,
-22,9,2018,265,35,SW,PoMu,2,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,
-17,9,2022,260,36,SW,PoMu,1,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,
-17,9,2022,260,18,NW,PoMu,1,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,
-17,9,2022,260,8,NW,PoMu,1,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,
-17,9,2022,260,9,SW,PoMu,1,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,
+8,6,2018,159,32,SE,PoMu,1,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,C4
+22,9,2018,265,35,SW,PoMu,2,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,C4
+17,9,2022,260,36,SW,PoMu,1,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,C4
+17,9,2022,260,18,NW,PoMu,1,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,C4
+17,9,2022,260,8,NW,PoMu,1,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,C4
+17,9,2022,260,9,SW,PoMu,1,Portulaca mundula,Forb,Portulacaceaea,Portulaca,mundula,annual,C4
 11,9,2021,254,30,NW,PoOl,2,Portulaca oleracea,Forb,Portulacaceaea,Portulaca,oleracea,annual,C4
 11,9,2021,254,17,NW,PoOl,2,Portulaca oleracea,Forb,Portulacaceaea,Portulaca,oleracea,annual,C4
-8,6,2018,159,19,NE,PrGl,12,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-8,6,2018,159,25,SW,PrGl,13,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-8,6,2018,159,40,SE,PrGl,2,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-22,9,2018,265,3,NW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-22,9,2018,265,17,NW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-6,10,2019,279,12,SW,PrGl,2,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-6,10,2019,279,9,SW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-6,10,2019,279,28,SW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-6,10,2019,279,23,NW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-6,10,2019,279,33,NE,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-19,9,2020,263,23,NE,PrGl,8,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-11,9,2021,254,23,SW,PrGl,15,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-17,9,2022,260,15,NW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-27,8,2023,239,21,SE,PrGl,18,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-27,8,2023,239,23,NW,PrGl,17,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-27,8,2023,239,28,SW,PrGl,12,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,
-8,6,2018,159,5,NW,RaCo,1,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,
-8,6,2018,159,41,SE,RaCo,6,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,
-22,9,2018,265,19,NE,RaCo,8,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,
-22,9,2018,265,28,SW,RaCo,10,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,
-22,9,2018,265,31,NE,RaCo,10,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,
-22,9,2018,265,33,NE,RaCo,3,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,
-22,9,2018,265,38,NW,RaCo,5,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,
-22,9,2018,265,41,SE,RaCo,6,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,
-11,9,2021,254,17,NW,RaCo,2,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,
-22,9,2018,265,12,SW,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-22,9,2018,265,26,NE,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-22,9,2018,265,31,NE,SaTr,7,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-22,9,2018,265,33,NE,SaTr,18,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-22,9,2018,265,41,SE,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-6,10,2019,279,3,NW,SaTr,5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-6,10,2019,279,5,NW,SaTr,1.5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-6,10,2019,279,12,SW,SaTr,5.5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-6,10,2019,279,11,NE,SaTr,4.5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-6,10,2019,279,28,SW,SaTr,3.5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-6,10,2019,279,30,NW,SaTr,27.5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-6,10,2019,279,32,SE,SaTr,3,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-6,10,2019,279,36,SW,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,21,SE,SaTr,30,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,16,SW,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,15,NW,SaTr,70,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,36,SW,SaTr,12,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,39,NE,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,42,SE,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,34,NE,SaTr,22,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,33,NE,SaTr,18,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,32,SE,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,30,NW,SaTr,8,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,29,NE,SaTr,20,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,8,NW,SaTr,60,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,11,NE,SaTr,40,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,12,SW,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,13,NW,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,14,NE,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,4,NW,SaTr,80,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,3,NW,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-19,9,2020,263,2,NE,SaTr,19,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,36,SW,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,37,SW,SaTr,33,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,39,NE,SaTr,43,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,42,SE,SaTr,97,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,35,NW,SaTr,90,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,34,NE,SaTr,28,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,33,NE,SaTr,93,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,32,SE,SaTr,45,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,30,NW,SaTr,43,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,29,NE,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,23,NW,SaTr,20,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,24,SE,SaTr,15,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,27,SW,SaTr,20,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,28,SW,SaTr,30,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,21,SE,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,20,SW,SaTr,88,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,18,NW,SaTr,88,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,17,NW,SaTr,30,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,16,SW,SaTr,90,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,15,NW,SaTr,93,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,8,NW,SaTr,40,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,9,SW,SaTr,28,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,12,SW,SaTr,53,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,14,NE,SaTr,70,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,13,NW,SaTr,88,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,5,NW,SaTr,23,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,4,NW,SaTr,45,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,3,NW,SaTr,48,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-11,9,2021,254,2,NE,SaTr,65,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,36,SW,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,37,SW,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,39,NE,SaTr,70,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,34,NE,SaTr,6,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,33,NE,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,32,SE,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,30,NW,SaTr,55,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,29,NE,SaTr,24,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,23,NW,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,24,SE,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,27,SW,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,28,SW,SaTr,12,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,21,SE,SaTr,4,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,18,NW,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,17,NW,SaTr,20,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,16,SW,SaTr,15,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,8,NW,SaTr,20,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,9,SW,SaTr,5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,12,SW,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,13,NW,SaTr,6,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,14,NE,SaTr,9,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,5,NW,SaTr,15,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,4,NW,SaTr,8,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,3,NW,SaTr,15,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-17,9,2022,260,2,NE,SaTr,40,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,14,NE,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,36,SW,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,29,NE,SaTr,6,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,30,NW,SaTr,4,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,37,SW,SaTr,7,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,39,NE,SaTr,3,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,32,SE,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,42,SE,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,27,SW,SaTr,4,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,28,SW,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,20,SW,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,17,NW,SaTr,17,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,23,NW,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,16,SW,SaTr,5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,15,NW,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,13,NW,SaTr,3,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,5,NW,SaTr,3,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,4,NW,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,3,NW,SaTr,3,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,9,SW,SaTr,4,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,2,NE,SaTr,5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-27,8,2023,239,8,NW,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,
-8,6,2018,159,1,NE,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,2,NE,SoEl,22,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,3,NW,SoEl,18,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,4,NW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,5,NW,SoEl,8,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,6,SE,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,8,NW,SoEl,15,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,9,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,10,SW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,11,NE,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,12,SW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,13,NW,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,14,NE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,16,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,19,NE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,20,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,21,SE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,22,SE,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,23,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,24,SE,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,25,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,26,NE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,27,SW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,28,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,29,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,30,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,31,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,32,SE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,34,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,35,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,36,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,37,SW,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,38,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,39,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,40,SE,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,41,SE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-8,6,2018,159,42,SE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,1,NE,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,2,NE,SoEl,45,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,3,NW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,4,NW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,5,NW,SoEl,25,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,6,SE,SoEl,23,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,7,NE,SoEl,25,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,8,NW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,9,SW,SoEl,8,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,10,SW,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,11,NE,SoEl,7,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,12,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,13,NW,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,14,NE,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,17,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,19,NE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,20,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,21,SE,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,22,SE,SoEl,17,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,23,NW,SoEl,15,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,24,SE,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,26,NE,SoEl,17,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,27,SW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,29,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,30,NW,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,34,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,35,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,36,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,37,SW,SoEl,7,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,38,NW,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,40,SE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,41,SE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-22,9,2018,265,42,SE,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,3,NW,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,5,NW,SoEl,6.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,14,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,13,NW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,11,NE,SoEl,4.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,9,SW,SoEl,6.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,8,NW,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,16,SW,SoEl,1.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,17,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,21,SE,SoEl,9,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,24,SE,SoEl,5.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,23,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,29,NE,SoEl,2.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,30,NW,SoEl,17,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-6,10,2019,279,37,SW,SoEl,7.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,23,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,17,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,36,SW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,39,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,42,SE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,32,SE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,30,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,29,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,8,NW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,9,SW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,12,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,13,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,5,NW,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,4,NW,SoEl,7,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-19,9,2020,263,2,NE,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,36,SW,SoEl,8,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,37,SW,SoEl,15,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,34,NE,SoEl,8,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,30,NW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,23,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,24,SE,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,21,SE,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,17,NW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,8,NW,SoEl,20,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,9,SW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,12,SW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,11,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,13,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,4,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-11,9,2021,254,3,NW,SoEl,13,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,36,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,37,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,39,NE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,35,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,32,SE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,30,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,23,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,21,SE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,20,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,17,NW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,8,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,9,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,11,NE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,13,NW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,14,NE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,5,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,4,NW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,3,NW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-17,9,2022,260,2,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,12,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,14,NE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,36,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,30,NW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,37,SW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,21,SE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,21,SE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,20,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,13,NW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,12,SW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,5,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,4,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,3,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,9,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,2,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,8,NW,SoEl,15,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,
-27,8,2023,239,16,SW,SoRo,1,Solanum rostratum,Forb,Solanaceae,Solanum,Rostratum,perennial,
-27,8,2023,239,8,NW,TeLa,1,Teucrium Laciniatum,Forb,Lamiaceae,Teucrium ,Laciniatum,perennial,
-6,10,2019,279,12,SW,TrTe,1.5,Tribulus terrestris,Forb,Zygophyllaceae,Tribulus ,Terrestris,annual,
-6,10,2019,279,30,NW,TrTe,1.5,Tribulus terrestris,Forb,Zygophyllaceae,Tribulus ,Terrestris,annual,
-19,9,2020,263,34,NE,Unknown,5,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,
-11,9,2021,254,39,NE,Unknown,1,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,
-11,9,2021,254,35,NW,Unknown,1,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,
-11,9,2021,254,20,SW,Unknown,5,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,
-11,9,2021,254,3,NW,Unknown,2,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,
-22,9,2018,265,40,SE,YuGl,2,Yucca glauca,Shrub/tree,Agavaceae,Yucca,glauca,perennial,
-22,9,2018,265,27,SW,ZiGr,25,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,
-6,10,2019,279,27,SW,ZiGr,19,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,
-11,9,2021,254,27,SW,ZiGr,10,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,
-11,9,2021,254,21,SE,ZiGr,2,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,
-17,9,2022,260,27,SW,ZiGr,5,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,
-27,8,2023,239,27,SW,ZiGr,1,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,
-27,8,2023,239,27,SW,ZiGr,1,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,
+8,6,2018,159,19,NE,PrGl,12,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+8,6,2018,159,25,SW,PrGl,13,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+8,6,2018,159,40,SE,PrGl,2,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+22,9,2018,265,3,NW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+22,9,2018,265,17,NW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+6,10,2019,279,12,SW,PrGl,2,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+6,10,2019,279,9,SW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+6,10,2019,279,28,SW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+6,10,2019,279,23,NW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+6,10,2019,279,33,NE,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+19,9,2020,263,23,NE,PrGl,8,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+11,9,2021,254,23,SW,PrGl,15,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+17,9,2022,260,15,NW,PrGl,1,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+27,8,2023,239,21,SE,PrGl,18,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+27,8,2023,239,23,NW,PrGl,17,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+27,8,2023,239,28,SW,PrGl,12,Prosopis glandulosa,Shrub/tree,Fabaceae,Prosopis,glandulosa,perennial,C3
+8,6,2018,159,5,NW,RaCo,1,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,C3
+8,6,2018,159,41,SE,RaCo,6,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,C3
+22,9,2018,265,19,NE,RaCo,8,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,C3
+22,9,2018,265,28,SW,RaCo,10,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,C3
+22,9,2018,265,31,NE,RaCo,10,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,C3
+22,9,2018,265,33,NE,RaCo,3,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,C3
+22,9,2018,265,38,NW,RaCo,5,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,C3
+22,9,2018,265,41,SE,RaCo,6,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,C3
+11,9,2021,254,17,NW,RaCo,2,Ratibida columnifera,Forb,Asteraceae,Ratibida,columnifera,perennial,C3
+22,9,2018,265,12,SW,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+22,9,2018,265,26,NE,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+22,9,2018,265,31,NE,SaTr,7,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+22,9,2018,265,33,NE,SaTr,18,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+22,9,2018,265,41,SE,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+6,10,2019,279,3,NW,SaTr,5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+6,10,2019,279,5,NW,SaTr,1.5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+6,10,2019,279,12,SW,SaTr,5.5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+6,10,2019,279,11,NE,SaTr,4.5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+6,10,2019,279,28,SW,SaTr,3.5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+6,10,2019,279,30,NW,SaTr,27.5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+6,10,2019,279,32,SE,SaTr,3,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+6,10,2019,279,36,SW,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,21,SE,SaTr,30,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,16,SW,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,15,NW,SaTr,70,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,36,SW,SaTr,12,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,39,NE,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,42,SE,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,34,NE,SaTr,22,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,33,NE,SaTr,18,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,32,SE,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,30,NW,SaTr,8,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,29,NE,SaTr,20,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,8,NW,SaTr,60,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,11,NE,SaTr,40,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,12,SW,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,13,NW,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,14,NE,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,4,NW,SaTr,80,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,3,NW,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+19,9,2020,263,2,NE,SaTr,19,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,36,SW,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,37,SW,SaTr,33,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,39,NE,SaTr,43,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,42,SE,SaTr,97,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,35,NW,SaTr,90,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,34,NE,SaTr,28,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,33,NE,SaTr,93,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,32,SE,SaTr,45,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,30,NW,SaTr,43,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,29,NE,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,23,NW,SaTr,20,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,24,SE,SaTr,15,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,27,SW,SaTr,20,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,28,SW,SaTr,30,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,21,SE,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,20,SW,SaTr,88,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,18,NW,SaTr,88,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,17,NW,SaTr,30,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,16,SW,SaTr,90,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,15,NW,SaTr,93,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,8,NW,SaTr,40,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,9,SW,SaTr,28,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,12,SW,SaTr,53,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,14,NE,SaTr,70,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,13,NW,SaTr,88,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,5,NW,SaTr,23,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,4,NW,SaTr,45,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,3,NW,SaTr,48,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+11,9,2021,254,2,NE,SaTr,65,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,36,SW,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,37,SW,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,39,NE,SaTr,70,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,34,NE,SaTr,6,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,33,NE,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,32,SE,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,30,NW,SaTr,55,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,29,NE,SaTr,24,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,23,NW,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,24,SE,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,27,SW,SaTr,50,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,28,SW,SaTr,12,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,21,SE,SaTr,4,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,18,NW,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,17,NW,SaTr,20,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,16,SW,SaTr,15,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,8,NW,SaTr,20,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,9,SW,SaTr,5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,12,SW,SaTr,25,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,13,NW,SaTr,6,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,14,NE,SaTr,9,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,5,NW,SaTr,15,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,4,NW,SaTr,8,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,3,NW,SaTr,15,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+17,9,2022,260,2,NE,SaTr,40,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,14,NE,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,36,SW,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,29,NE,SaTr,6,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,30,NW,SaTr,4,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,37,SW,SaTr,7,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,39,NE,SaTr,3,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,32,SE,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,42,SE,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,27,SW,SaTr,4,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,28,SW,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,20,SW,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,17,NW,SaTr,17,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,23,NW,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,16,SW,SaTr,5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,15,NW,SaTr,2,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,13,NW,SaTr,3,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,5,NW,SaTr,3,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,4,NW,SaTr,1,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,3,NW,SaTr,3,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,9,SW,SaTr,4,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,2,NE,SaTr,5,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+27,8,2023,239,8,NW,SaTr,10,Salsola tragus,Forb,Chenopodiaceae,Salsola,tragus,annual,C4
+8,6,2018,159,1,NE,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,2,NE,SoEl,22,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,3,NW,SoEl,18,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,4,NW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,5,NW,SoEl,8,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,6,SE,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,8,NW,SoEl,15,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,9,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,10,SW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,11,NE,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,12,SW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,13,NW,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,14,NE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,16,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,19,NE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,20,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,21,SE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,22,SE,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,23,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,24,SE,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,25,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,26,NE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,27,SW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,28,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,29,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,30,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,31,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,32,SE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,34,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,35,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,36,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,37,SW,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,38,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,39,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,40,SE,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,41,SE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+8,6,2018,159,42,SE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,1,NE,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,2,NE,SoEl,45,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,3,NW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,4,NW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,5,NW,SoEl,25,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,6,SE,SoEl,23,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,7,NE,SoEl,25,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,8,NW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,9,SW,SoEl,8,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,10,SW,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,11,NE,SoEl,7,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,12,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,13,NW,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,14,NE,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,17,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,19,NE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,20,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,21,SE,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,22,SE,SoEl,17,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,23,NW,SoEl,15,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,24,SE,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,26,NE,SoEl,17,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,27,SW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,29,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,30,NW,SoEl,12,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,34,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,35,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,36,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,37,SW,SoEl,7,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,38,NW,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,40,SE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,41,SE,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+22,9,2018,265,42,SE,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,3,NW,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,5,NW,SoEl,6.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,14,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,13,NW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,11,NE,SoEl,4.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,9,SW,SoEl,6.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,8,NW,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,16,SW,SoEl,1.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,17,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,21,SE,SoEl,9,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,24,SE,SoEl,5.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,23,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,29,NE,SoEl,2.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,30,NW,SoEl,17,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+6,10,2019,279,37,SW,SoEl,7.5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,23,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,17,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,36,SW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,39,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,42,SE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,32,SE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,30,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,29,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,8,NW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,9,SW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,12,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,13,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,5,NW,SoEl,4,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,4,NW,SoEl,7,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+19,9,2020,263,2,NE,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,36,SW,SoEl,8,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,37,SW,SoEl,15,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,34,NE,SoEl,8,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,30,NW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,23,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,24,SE,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,21,SE,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,17,NW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,8,NW,SoEl,20,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,9,SW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,12,SW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,11,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,13,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,4,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+11,9,2021,254,3,NW,SoEl,13,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,36,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,37,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,39,NE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,35,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,32,SE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,30,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,23,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,21,SE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,20,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,17,NW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,8,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,9,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,11,NE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,13,NW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,14,NE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,5,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,4,NW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,3,NW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+17,9,2022,260,2,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,12,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,14,NE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,36,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,30,NW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,37,SW,SoEl,10,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,21,SE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,21,SE,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,20,SW,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,13,NW,SoEl,6,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,12,SW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,5,NW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,4,NW,SoEl,3,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,3,NW,SoEl,5,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,9,SW,SoEl,1,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,2,NE,SoEl,2,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,8,NW,SoEl,15,Solanum elaegnaifolium,Forb,Solanaceae,Solanum,elaegnaifolium,perennial,C3
+27,8,2023,239,16,SW,SoRo,1,Solanum rostratum,Forb,Solanaceae,Solanum,Rostratum,perennial,C3
+27,8,2023,239,8,NW,TeLa,1,Teucrium Laciniatum,Forb,Lamiaceae,Teucrium ,Laciniatum,perennial,C3
+6,10,2019,279,12,SW,TrTe,1.5,Tribulus terrestris,Forb,Zygophyllaceae,Tribulus ,Terrestris,annual,C3
+6,10,2019,279,30,NW,TrTe,1.5,Tribulus terrestris,Forb,Zygophyllaceae,Tribulus ,Terrestris,annual,C3
+19,9,2020,263,34,NE,Unknown,5,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,NA
+11,9,2021,254,39,NE,Unknown,1,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,NA
+11,9,2021,254,35,NW,Unknown,1,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,NA
+11,9,2021,254,20,SW,Unknown,5,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,NA
+11,9,2021,254,3,NW,Unknown,2,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,NA
+22,9,2018,265,40,SE,YuGl,2,Yucca glauca,Shrub/tree,Agavaceae,Yucca,glauca,perennial,C3
+22,9,2018,265,27,SW,ZiGr,25,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,C3
+6,10,2019,279,27,SW,ZiGr,19,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,C3
+11,9,2021,254,27,SW,ZiGr,10,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,C3
+11,9,2021,254,21,SE,ZiGr,2,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,C3
+17,9,2022,260,27,SW,ZiGr,5,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,C3
+27,8,2023,239,27,SW,ZiGr,1,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,C3
+27,8,2023,239,27,SW,ZiGr,1,Zinnia grandiflora,Forb,Asteraceae,Zinnia,grandiflora,perennial,C3
