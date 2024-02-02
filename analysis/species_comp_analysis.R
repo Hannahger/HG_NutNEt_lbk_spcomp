@@ -14,6 +14,8 @@ library(vegan)
 library(multcompView)
 library(multcomp)
 library(readxl)
+library(lubridate)
+
 
 ## load data
 spcomp_data <- read.csv("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/species_comp.csv")
@@ -79,6 +81,7 @@ ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'
 ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
         aes(Year, richness, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~trt) + theme_bw()
 
+
 ### model making time 
 
 #### add in treatment binary factors
@@ -118,6 +121,7 @@ plot(resid(mod_evenness.year.trt) ~ fitted(mod_evenness.year.trt))
 Anova(mod_evenness.year.trt)  
 cld(emmeans(mod_evenness.year.trt, ~yearfac))
 
+
 # TAKE HOME: treatments have no impact on any metric of diversity in any year
 # but there is significant year-to-year variation, with even (i.e., dry) years having
 # the greatest diversity, lowest richness, but highest evenness
@@ -140,8 +144,17 @@ Summ_spcomp_diversity_ptype_wPlots$ps_path_fac <- as.factor(Summ_spcomp_diversit
 
 
 ## climate 
-#KLBB_weather <- read_excel("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/KLBB_weather.xlsx")
-#head(KLBB_weather)
-#KLBB_weather$precip_mm
+KLBB_weather <- read_excel("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/KLBB_weather.xlsx")
+head(KLBB_weather)
 
+annual_precip <- KLBB_weather %>% mutate(Date_Time = ymd_hms(Date_Time), 
+                      Year = year(Date_Time)) %>% group_by(Year) %>% summarise(annual_precip = sum(precip_mm, na.rm = TRUE))
+
+## making figures for TTABSS
+# fig.2 Significant year-to-year variation between wet and dry years 
+
+ggplot() + geom_point(data = annual_precip, aes ( x = Year, y = annual_precip)) + scale_y_continuous(limits = c( 0, 600), breaks = seq (0, 600, 200))
+
+ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
+  aes(Year, diversity, fill=factor(Year))) + geom_boxplot()   ## take out outliers, look up how on YT
 
