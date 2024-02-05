@@ -147,28 +147,39 @@ Summ_spcomp_diversity_ptype_wPlots$ps_path_fac <- as.factor(Summ_spcomp_diversit
 KLBB_weather <- read_excel("../data/KLBB_weather.xlsx")
 head(KLBB_weather)
 
-annual_precip <- KLBB_weather %>% mutate(Date_Time = ymd_hms(Date_Time), 
-                      Year = year(Date_Time)) %>% group_by(Year) %>% 
-  summarise(annual_precip = sum(precip_mm, na.rm = TRUE),
-            annual_precip_plot = annual_precip / 10)
+annual_precip <- KLBB_weather %>% mutate(Date_Time = ymd_hms(Date_Time), Year = year(Date_Time)) %>% group_by(Year) %>% 
+  summarise(annual_precip = sum(precip_mm, na.rm = TRUE), annual_precip_plot = annual_precip / 10)
 
 ## making figures for TTABSS
 # fig.2 Significant year-to-year variation between wet and dry years 
 
-plot_df <- Summ_spcomp_diversity_ptype_wPlots %>%
-  full_join(annual_precip)
+plot_df <- Summ_spcomp_diversity_ptype_wPlots %>% full_join(annual_precip)
 
+ggplot() + geom_boxplot(data = subset(plot_df, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+    aes(as.factor(Year), diversity), outlier.shape = NA) + geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_plot), 
+    size = 3, color = "blue") + scale_y_continuous(limits = c(0, 60), breaks = seq(0, 60, 20), name = "Simpson's Diversity",
+    sec.axis = sec_axis(~.*10, name = "MAP (mm)")) + labs(x = "Year") + theme_bw(base_size = 18)
 
-ggplot() + 
-  geom_boxplot(data = subset(plot_df, 
-                      diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
-               aes(as.factor(Year), diversity), outlier.shape = NA) +
-  geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_plot), 
-             size = 5, color = "red") + 
-  scale_y_continuous(limits = c(0, 60), breaks = seq(0, 60, 20), 
-                     name = "Simpson's Diversity Index",
-                     sec.axis = sec_axis(~.*10, name = "MAP (mm)")) +
-  labs(x = "Year") +
-  theme_bw(base_size = 18)
+ggplot() + geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+    aes(as.factor(Year), richness), outlier.shape = NA) + geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_plot), 
+    size = 3, color = "blue") + scale_y_continuous(limits = c(0, 10), breaks = seq(0, 8, 2), name = "Species Richness",
+    sec.axis = sec_axis(~.*10, name = "MAP (mm)")) + labs(x = "Year") + theme_bw(base_size = 18)                       ## Need to scale MAP axis so precip is visible 
+
+ggplot() + geom_boxplot(data = subset(plot_df, evenness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+    aes(as.factor(Year), evenness), outlier.shape = NA) + geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_plot), 
+    size = 3, color = "blue") + scale_y_continuous(limits = c(0, 20), breaks = seq(0, 20, 5), name = "Species Evenness",
+    sec.axis = sec_axis(~.*10, name = "MAP (mm)")) + labs(x = "Year") + theme_bw(base_size = 18)                       ## Need to scale MAP axis so precip is visible 
+
+# fig.1 Treatment had no effect on any diversity metric 
+
+ggplot() + geom_boxplot(data = subset(plot_df, diversity < 60 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'), 
+                        aes(as.factor(trt), diversity), outlier.shape = NA)
+
+ggplot() + geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'), 
+                        aes(as.factor(trt), richness))
+
+ggplot() + geom_boxplot(data = subset(plot_df, evenness < 10 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'), 
+                        aes(as.factor(trt), evenness), outlier.shape = NA)
+                                                                                                  
   
 
