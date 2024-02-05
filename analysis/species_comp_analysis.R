@@ -18,7 +18,7 @@ library(lubridate)
 
 
 ## load data
-spcomp_data <- read.csv("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/species_comp.csv")
+spcomp_data <- read.csv("../data/species_comp.csv")
 
 ## remove litter and bareground estimates
 spcomp_data_plants <- subset(spcomp_data, binomial != 'litter' & binomial != 'bareground')
@@ -109,7 +109,7 @@ Anova(mod_div.year.trt)
 cld(emmeans(mod_div.year.trt, ~yearfac))
 cld(emmeans(mod_div.year.trt, ~nfac*kfac))
 
-mod_rich.year.trt <- lmer((richness) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), data = (spcomp_data_4lmer))  
+mod_rich.year.trt <- lmer(richness ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), data = (spcomp_data_4lmer))  
 plot(resid(mod_rich.year.trt) ~ fitted(mod_rich.year.trt))
 Anova(mod_rich.year.trt)  
 cld(emmeans(mod_rich.year.trt, ~yearfac))
@@ -144,17 +144,31 @@ Summ_spcomp_diversity_ptype_wPlots$ps_path_fac <- as.factor(Summ_spcomp_diversit
 
 
 ## climate 
-KLBB_weather <- read_excel("~/Documents/Git/HG_NutNEt_lbk_spcomp/data/KLBB_weather.xlsx")
+KLBB_weather <- read_excel("../data/KLBB_weather.xlsx")
 head(KLBB_weather)
 
 annual_precip <- KLBB_weather %>% mutate(Date_Time = ymd_hms(Date_Time), 
-                      Year = year(Date_Time)) %>% group_by(Year) %>% summarise(annual_precip = sum(precip_mm, na.rm = TRUE))
+                      Year = year(Date_Time)) %>% group_by(Year) %>% 
+  summarise(annual_precip = sum(precip_mm, na.rm = TRUE),
+            annual_precip_plot = annual_precip / 10)
 
 ## making figures for TTABSS
 # fig.2 Significant year-to-year variation between wet and dry years 
 
-ggplot() + geom_point(data = annual_precip, aes ( x = Year, y = annual_precip)) + scale_y_continuous(limits = c( 0, 600), breaks = seq (0, 600, 200))
+plot_df <- Summ_spcomp_diversity_ptype_wPlots %>%
+  full_join(annual_precip)
 
-ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
-  aes(Year, diversity, fill=factor(Year))) + geom_boxplot()   ## take out outliers, look up how on YT
+
+ggplot() + 
+  geom_boxplot(data = subset(plot_df, 
+                      diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+               aes(as.factor(Year), diversity), outlier.shape = NA) +
+  geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_plot), 
+             size = 5, color = "red") + 
+  scale_y_continuous(limits = c(0, 60), breaks = seq(0, 60, 20), 
+                     name = "Simpson's Diversity Index",
+                     sec.axis = sec_axis(~.*10, name = "MAP (mm)")) +
+  labs(x = "Year") +
+  theme_bw(base_size = 18)
+  
 
