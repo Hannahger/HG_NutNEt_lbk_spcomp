@@ -15,7 +15,8 @@ library(multcompView)
 library(multcomp)
 library(readxl)
 library(lubridate)
-
+library(ggpubr)
+library(patchwork)
 
 ## load data
 spcomp_data <- read.csv("../data/species_comp.csv")
@@ -136,11 +137,11 @@ head(spcomp_data_plants)
 
 # make binomial, lifeform, lifespan, and ps_path factors
 ## leave to go over with NGS; I know what is going on but don't have time at the moment to fix (don't adjust things above)
-head(Summ_spcomp_diversity_ptype_wPlots)
-Summ_spcomp_diversity_ptype_wPlots$binomial_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$binomial)
-Summ_spcomp_diversity_ptype_wPlots$lifeform_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$lifeform)
-Summ_spcomp_diversity_ptype_wPlots$lifespan_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$lifespan)
-Summ_spcomp_diversity_ptype_wPlots$ps_path_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$ps_path)
+#head(Summ_spcomp_diversity_ptype_wPlots)
+#Summ_spcomp_diversity_ptype_wPlots$binomial_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$binomial)
+#Summ_spcomp_diversity_ptype_wPlots$lifeform_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$lifeform)
+#Summ_spcomp_diversity_ptype_wPlots$lifespan_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$lifespan)
+#Summ_spcomp_diversity_ptype_wPlots$ps_path_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$ps_path)
 
 
 ## climate 
@@ -151,35 +152,54 @@ annual_precip <- KLBB_weather %>% mutate(Date_Time = ymd_hms(Date_Time), Year = 
   summarise(annual_precip = sum(precip_mm, na.rm = TRUE), annual_precip_plot = annual_precip / 10)
 
 ## making figures for TTABSS
+
+# fig theme; Thank you Evan for letting me steal this :)
+
+figtheme <- theme_bw(base_size = 18) +
+  theme(panel.background = element_blank(),
+        strip.background = element_blank(),
+        axis.title = element_text(face = "bold"),
+        strip.text = element_text(face = "bold"),
+        panel.border = element_rect(size = 1.5, fill = NA),
+        legend.box.background = element_blank(),
+        legend.key = element_rect(fill = NA),
+        legend.background=element_blank(),
+        legend.title = element_text(face = "bold"),
+        axis.ticks.length = unit(0.25, "cm"),
+        panel.grid.minor.y = element_blank(),
+        legend.text.align = 0)
+
 # fig.2 Significant year-to-year variation between wet and dry years 
 
 plot_df <- Summ_spcomp_diversity_ptype_wPlots %>% full_join(annual_precip)
 
-ggplot() + geom_boxplot(data = subset(plot_df, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+fig.2.D <- ggplot() + geom_boxplot(data = subset(plot_df, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
     aes(as.factor(Year), diversity), outlier.shape = NA) + geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_plot), 
     size = 3, color = "blue") + scale_y_continuous(limits = c(0, 60), breaks = seq(0, 60, 20), name = "Simpson's Diversity",
     sec.axis = sec_axis(~.*10, name = "MAP (mm)")) + labs(x = "Year") + theme_bw(base_size = 18)
 
-ggplot() + geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+fig.2.R <- ggplot() + geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
     aes(as.factor(Year), richness), outlier.shape = NA) + geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_plot), 
     size = 3, color = "blue") + scale_y_continuous(limits = c(0, 10), breaks = seq(0, 8, 2), name = "Species Richness",
     sec.axis = sec_axis(~.*10, name = "MAP (mm)")) + labs(x = "Year") + theme_bw(base_size = 18)                       ## Need to scale MAP axis so precip is visible 
 
-ggplot() + geom_boxplot(data = subset(plot_df, evenness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+fig.2.E <- ggplot() + geom_boxplot(data = subset(plot_df, evenness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
     aes(as.factor(Year), evenness), outlier.shape = NA) + geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_plot), 
     size = 3, color = "blue") + scale_y_continuous(limits = c(0, 20), breaks = seq(0, 20, 5), name = "Species Evenness",
     sec.axis = sec_axis(~.*10, name = "MAP (mm)")) + labs(x = "Year") + theme_bw(base_size = 18)                       ## Need to scale MAP axis so precip is visible 
 
 # fig.1 Treatment had no effect on any diversity metric 
 
-ggplot() + geom_boxplot(data = subset(plot_df, diversity < 60 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'), 
-                        aes(as.factor(trt), diversity), outlier.shape = NA)
+fig.1.D <- ggplot() + geom_boxplot(data = subset(plot_df, diversity < 60 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+                                   aes(as.factor(trt), diversity, fill = (as.factor(trt))), outlier.shape = NA) + theme(legend.position = "none") + 
+                                   scale_fill_manual(values=c("#332288", "#0077BB", "#009988", "#117733", "#DDAA33", "#EE7733", "#cc3311", "#882255"))
 
-ggplot() + geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'), 
-                        aes(as.factor(trt), richness))
+fig.1.R <- ggplot() + geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+                                   aes(as.factor(trt), richness, fill = (as.factor(trt)))) + theme(legend.position = "none")
 
-ggplot() + geom_boxplot(data = subset(plot_df, evenness < 10 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'), 
-                        aes(as.factor(trt), evenness), outlier.shape = NA)
-                                                                                                  
+fig.1.E <- ggplot() + geom_boxplot(data = subset(plot_df, evenness < 10 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+                                   aes(as.factor(trt), evenness, fill = (as.factor(trt))), outlier.shape = NA) + theme(legend.position = "none")
+
+                                                                             
   
 
