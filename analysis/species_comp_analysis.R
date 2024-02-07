@@ -176,54 +176,75 @@ figtheme <- theme_bw(base_size = 18) +
 
 plot_df <- Summ_spcomp_diversity_ptype_wPlots %>% full_join(annual_precip)
 
-fig.2.D <- ggplot() + stat_boxplot(data = subset(plot_df, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl') + 
-              aes(as.factor(Year), diversity), size = 0.75, geom = "errorbar", width = 0.2) +
-              geom_boxplot(data = subset(plot_df, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
-              aes(as.factor(Year), diversity), outlier.shape = NA) + geom_point(data = plot_df, 
+fig.2.D <- ggplot() + 
+   stat_boxplot(data = subset(plot_df, diversity < 100 & trt != 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'), 
+               aes(x = as.factor(Year), y = diversity),
+               size = 0.75, geom = "errorbar", width = 0.2)  +
+  geom_boxplot(data = subset(plot_df, diversity < 100 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+              aes(as.factor(Year), diversity), outlier.shape = NA) + 
+  geom_point(data = plot_df, 
               aes(x = as.factor(Year), y = annual_precip_diversity_plot), size = 3, color = "#0077BB") + 
-              scale_y_continuous(limits = c(0, 60), breaks = seq(0, 60, 20), name = "Simpson's Diversity", 
-              sec.axis = sec_axis(~.*10, name = "MAP (mm)")) + labs(x = "Year") + theme_bw(base_size = 18)
+  scale_y_continuous(limits = c(0, 60), breaks = seq(0, 60, 20), name = "Simpson's Diversity", 
+              sec.axis = sec_axis(~.*10, name = "MAP (mm)", breaks = seq(0, 600, 150))) + 
+  labs(x = "Year") + 
+  theme_bw(base_size = 18)
 
-fig.2.R <- ggplot() + stat_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+fig.2.R <- ggplot() + 
+  stat_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt!= 'NPK+Fence' & trt!= 'xControl'), +
               aes(as.factor(Year), richness), size = 0.75, geom = "errorbar", width = 0.2) + 
-              geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
-              aes(as.factor(Year), richness), outlier.shape = NA) + geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_richness_plot), 
-              size = 3, color = "#0077BB") + scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5), name = "Species Richness",
-              sec.axis = sec_axis(~.*60, name = "MAP (mm)", breaks = seq(0, 600, 150))) + labs(x = "Year") + theme_bw(base_size = 18)                  
+  geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+              aes(as.factor(Year), richness), outlier.shape = NA) + 
+  geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_richness_plot), 
+              size = 3, color = "#0077BB") + 
+  scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5), name = "Species Richness",
+              sec.axis = sec_axis(~.*60, name = "MAP (mm)", breaks = seq(0, 600, 150))) + 
+  labs(x = "Year") + 
+  theme_bw(base_size = 18)                  
 
 fig.2.E <- ggplot() + stat_boxplot(data = subset(plot_df, evenness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
-              aes(as.factor(Year), evenness), size = 0.75, geom = "errorbar", width = 0.2) +
-              geom_boxplot(data = subset(plot_df, evenness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
-              aes(as.factor(Year), evenness), outlier.shape = NA) + 
-              geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_evenness_plot), size = 3, color = "#0077BB") + 
-              scale_y_continuous(limits = c(0, 20), breaks = seq(0, 20, 5), name = "Species Evenness",
-              sec.axis = sec_axis(~.*30, name = "MAP (mm)", breaks = seq(0, 600, 150))) + labs(x = "Year") + theme_bw(base_size = 18)                       
+              aes(as.factor(Year), evenness), size = 0.75, geom = "errorbar", width = 0.2) +  
+  geom_boxplot(data = subset(plot_df, evenness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+              aes(as.factor(Year), evenness), fill = (as.factor(Year)), outlier.shape = NA) + 
+  scale_fill_manual(values = c("2018" = "#cc3311", "2020" = "#cc3311", "2022" = "#cc3311", "2019" = "#33ccee", "2021" = "#33ccee", "2023" = "#33ccee")) +  ## trying to color the even years red and the odd years blue; Error: object 'Year' not found 
+  geom_point(data = plot_df, aes(x = as.factor(Year), y = annual_precip_evenness_plot), 
+             size = 3, color = "#0077BB") + 
+  scale_y_continuous(limits = c(0, 20), breaks = seq(0, 20, 5), name = "Species Evenness",
+              sec.axis = sec_axis(~.*30, name = "MAP (mm)", breaks = seq(0, 600, 150))) + 
+  labs(x = "Year") + 
+  theme_bw(base_size = 18)                       
+
 
 # fig.1 Treatment had no effect on any diversity metric 
 
 fig.1.D <- ggplot() + stat_boxplot(data = subset(plot_df, diversity < 60 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
               aes(as.factor(trt), diversity), size = 0.75, geom = "errorbar", width = 0.2) +
-              geom_boxplot(data = subset(plot_df, diversity < 60 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+  geom_boxplot(data = subset(plot_df, diversity < 60 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
               aes(as.factor(trt), diversity, fill = (as.factor(trt))), outlier.shape = NA) + theme(legend.position = "none") + 
-              scale_fill_manual(values = c("#332288", "#0077BB", "#33ccee", "#117733", "#DDAA33", "#EE7733", "#cc3311", "#882255")) + 
-              labs(x = "Treatment") + scale_y_continuous(limits = c(0, 50), breaks = seq(0, 50, 10), name = "Simpson's Diversity") +
-              theme_bw(base_size = 18) + theme(legend.position = "none")
+  scale_fill_manual(values = c("#332288", "#0077BB", "#33ccee", "#117733", "#DDAA33", "#EE7733", "#cc3311", "#882255")) + 
+  labs(x = "Treatment") + 
+  scale_y_continuous(limits = c(0, 50), breaks = seq(0, 50, 10), name = "Simpson's Diversity") +
+  theme_bw(base_size = 18) + 
+  theme(legend.position = "none")
 
 fig.1.R <- ggplot() + stat_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
               aes(as.factor(trt), richness), size = 0.75, geom = "errorbar", width = 0.2) +
-              geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
-              aes(as.factor(trt), richness, fill = (as.factor(trt)))) + theme(legend.position = "none") +  
-              scale_fill_manual(values = c("#332288", "#0077BB", "#33ccee", "#117733", "#DDAA33", "#EE7733", "#cc3311", "#882255")) +
-              labs(x = "Treatment") + scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5), name = "Species Richness") +
-              theme_bw(base_size = 18) + theme(legend.position = "none")
+  geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+              aes(as.factor(trt), richness, fill = (as.factor(trt)))) + 
+  theme(legend.position = "none") +  
+  scale_fill_manual(values = c("#332288", "#0077BB", "#33ccee", "#117733", "#DDAA33", "#EE7733", "#cc3311", "#882255")) +
+  labs(x = "Treatment") + scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5), name = "Species Richness") +
+  theme_bw(base_size = 18) + 
+  theme(legend.position = "none")
 
 fig.1.E <- ggplot() + stat_boxplot(data = subset(plot_df, evenness < 10 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
               aes(as.factor(trt), evenness), size = 0.75, geom = "errorbar", width = 0.2) +
-              geom_boxplot(data = subset(plot_df, evenness < 10 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
-              aes(as.factor(trt), evenness, fill = (as.factor(trt))), outlier.shape = NA) + theme(legend.position = "none") +  
-              scale_fill_manual(values = c("#332288", "#0077BB", "#33ccee", "#117733", "#DDAA33", "#EE7733", "#cc3311", "#882255")) +
-              labs(x = "Treatment") + scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5), name = "Species Evenness") +
-              theme_bw(base_size = 18) + theme(legend.position = "none")
+  geom_boxplot(data = subset(plot_df, evenness < 10 & trt!= 'Fence'& trt != 'NPK+Fence' & trt != 'xControl'),
+              aes(as.factor(trt), evenness, fill = (as.factor(trt))), outlier.shape = NA) + 
+  theme(legend.position = "none") +  
+  scale_fill_manual(values = c("#332288", "#0077BB", "#33ccee", "#117733", "#DDAA33", "#EE7733", "#cc3311", "#882255")) + 
+  labs(x = "Treatment") + scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5), name = "Species Evenness") +
+  theme_bw(base_size = 18) + 
+  theme(legend.position = "none")
 
                                                                              
   
