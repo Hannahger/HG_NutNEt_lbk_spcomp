@@ -241,7 +241,7 @@ fig.1.D <- ggplot() +
               aes(as.factor(trt), diversity, fill = (as.factor(trt))), outlier.shape = NA) + theme(legend.position = "none") + 
   scale_fill_manual(values = c("#332288", "#0077BB", "#33ccee", "#117733", 
                                "#DDAA33", "#EE7733", "#cc3311", "#882255")) + 
-  labs(x = "Treatment",y = "Simpson's Diversity Index") + 
+  labs(x = "Treatment",y = "Simpson's Diversity") + 
   scale_y_continuous(limits = c(0, 50), breaks = seq(0, 50, 10)) +
   figtheme + 
   theme(legend.position = "none")
@@ -272,35 +272,24 @@ fig.1.E <- ggplot() +
   figtheme + 
   theme(legend.position = "none")
 
+## Merge figures into 1 
+
+fig.1 <- ggarrange(fig.1.D, fig.1.E, fig.1.R)
+fig.1
+
+fig.2 <- ggarrange(fig.2.D, fig.2.E, fig.2.R)
+fig.2
 
 ## download png's of figures 
 
-png("../plots/fig.1.D.png", 
-    width = 9, height = 6, units = 'in', res = 600)
-fig.1.D
+png("../plots/fig.1.png", 
+    width = 9.5, height = 6, units = 'in', res = 600)
+fig.1
 dev.off()
 
-png("../plots/fig.1.R.png", 
-    width = 9, height = 6, units = 'in', res = 600)
-fig.1.R
+png("../plots/fig.2.png", 
+    width = 12, height = 8, units = 'in', res = 600)
+fig.2
 dev.off()
 
-png("../plots/fig.1.E.png", 
-    width = 9, height = 6, units = 'in', res = 600)
-fig.1.E
-dev.off()
 
-png("../plots/fig.2.D.png", 
-    width = 6, height = 6, units = 'in', res = 600)
-fig.2.D
-dev.off()
-
-png("../plots/fig.2.R.png", 
-    width = 6, height = 6, units = 'in', res = 600)
-fig.2.R
-dev.off()
-
-png("../plots/fig.2.E.png", 
-    width = 6, height = 6, units = 'in', res = 600)
-fig.2.E
-dev.off()
