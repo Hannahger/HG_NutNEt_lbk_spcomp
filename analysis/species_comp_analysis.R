@@ -227,20 +227,24 @@ fig.2.D <- ggplot() +
                aes(x = as.factor(Year), y = diversity), size = 0.75, geom = "errorbar", width = 0.2)  +
   geom_boxplot(data = subset(plot_df, diversity < 100 & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
                aes(as.factor(Year), diversity, fill = annual_precip), outlier.shape = NA) + 
-  scale_fill_gradient(low = "#cc3311", high = "#33ccee") + 
+  scale_fill_gradient(low = "#d60404", high = "#0047ab") + 
   scale_y_continuous(limits = c(0, 45), breaks = seq(0, 45, 15), name = "Simpson's Diversity") + 
-  labs(x = "Year") + 
-  figtheme      
+  labs(x = "Year") +   
+  figtheme +
+  theme(legend.position = "none")
 
 fig.2.R <- ggplot() + 
   stat_boxplot(data = subset(plot_df, richness & trt!= 'Fence' & trt!= 'NPK+Fence' & trt!= 'xControl'),
                aes(as.factor(Year), richness), size = 0.75, geom = "errorbar", width = 0.2) + 
   geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
                aes(as.factor(Year), richness, fill = annual_precip), outlier.shape = NA) + 
-  scale_fill_gradient(low = "#cc3311", high = "#33ccee") + 
-  scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5),  name = "Species Richness") + 
+  scale_fill_gradient(low = "#d60404", high = "#0047ab") +
+  scale_y_continuous(limits = c(0, 8), breaks = seq(0, 8, 2.5),  name = "Species Richness") + 
   labs(x = "Year") + 
-  figtheme                 
+  labs(fill = "MAP (mm)") +
+  figtheme +
+  theme(legend.key.size = unit(1.0, "cm"), 
+        legend.key.width = unit (0.5, "cm"))
 
 
 fig.2.E <- ggplot() + 
@@ -248,10 +252,11 @@ fig.2.E <- ggplot() +
                aes(as.factor(Year), evenness), size = 0.75, geom = "errorbar", width = 0.2) +  
   geom_boxplot(data = subset(plot_df, evenness & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
                aes(as.factor(Year), evenness, fill = annual_precip), outlier.shape = NA) + 
-  scale_fill_gradient(low = "#cc3311", high = "#33ccee") + 
+  scale_fill_gradient(low = "#d60404", high = "#0047ab") +
   scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5), name = "Species Evenness") + 
   labs(x = "Year") + 
-  figtheme
+  figtheme +
+  theme(legend.position = "none")
 
 
 # fig.1 Treatment had no effect on any diversity metric 
@@ -269,31 +274,34 @@ fig.1.D <- ggplot() +
               aes(as.factor(trt), diversity), size = 0.75, geom = "errorbar", width = 0.2) +
   geom_boxplot(data = subset(plot_df, diversity < 60 & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
               aes(as.factor(trt), diversity, fill = as.factor(trt)), outlier.shape = NA) + 
-  scale_fill_manual(values = c("gray", "#882255", "#882255", "#882255", "#882255",
-                               "#882255", "#882255", "#882255", "#882255")) + 
-  # fix this (^^) for fig.1.r and fig.1.e (for paper, not poster)
+  scale_fill_manual(values = c("gray", "#bb5566", "#bb5566", "#bb5566", "#bb5566",
+                               "#bb5566", "#bb5566", "#bb5566", "#bb5566")) + 
   theme(legend.position = "none") + 
   labs(x = "Treatment",y = "Simpson's Diversity") + 
   scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 10)) +
   figtheme + 
   theme(legend.position = "none")
 
-fig.1.R <- ggplot() + 
+fig.1.R <- ggplot() +    #getting message "Can't add `scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5))` to a theme object."
   stat_boxplot(data = subset(plot_df, richness & trt!= 'Fence' &  trt != 'NPK+Fence' & trt != 'xControl'),
               aes(as.factor(trt), richness), size = 0.75, geom = "errorbar", width = 0.2) +
   geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
-              aes(as.factor(trt), richness, fill = as.factor(trt)), outlier.shape = NA, fill = "#882255") + 
+              aes(as.factor(trt), richness, fill = as.factor(trt)), outlier.shape = NA,) + 
+  scale_fill_manual(values = c("gray", "#bb5566", "#bb5566", "#bb5566", "#bb5566",
+                               "#bb5566", "#bb5566", "#bb5566", "#bb5566"))
   theme(legend.position = "none") + 
   labs(x = "Treatment", y = "Species Richness") + 
   scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5)) +
-  figtheme + 
+  figtheme +
   theme(legend.position = "none")
 
-fig.1.E <- ggplot() + 
+fig.1.E <- ggplot() +     #getting message "Can't add `scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5))` to a theme object."
   stat_boxplot(data = subset(plot_df, evenness < 10 & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
               aes(as.factor(trt), evenness), size = 0.75, geom = "errorbar", width = 0.2) +
   geom_boxplot(data = subset(plot_df, evenness < 10 & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
-              aes(as.factor(trt), evenness, fill = as.factor(trt)), outlier.shape = NA, fill = "#882255") + 
+              aes(as.factor(trt), evenness, fill = as.factor(trt)), outlier.shape = NA) +
+  scale_fill_manual(values = c("gray", "#bb5566", "#bb5566", "#bb5566", "#bb5566",
+                             "#bb5566", "#bb5566", "#bb5566", "#bb5566"))
   theme(legend.position = "none") + 
   labs(x = "Treatment", y = "Species Evenness") + 
   scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5)) +
@@ -303,13 +311,22 @@ fig.1.E <- ggplot() +
 ## download png's of figures 
 
 png("../plots/fig.1.D.png", 
-    width = 9.5, height = 6, units = 'in', res = 600)
+    width = 6, height = 6, units = 'in', res = 600)
 fig.1.D
 dev.off()
 
-png("../plots/fig.2.png", 
-    width = 12, height = 8, units = 'in', res = 600)
-fig.2
+png("../plots/fig.2.D.png", 
+    width = 6, height = 6, units = 'in', res = 600)
+fig.2.D
 dev.off()
 
+png("../plots/fig.2.E.png", 
+    width = 6, height = 6, units = 'in', res = 600)
+fig.2.E
+dev.off()
+
+png("../plots/fig.2.R.png", 
+    width = 6, height = 6, units = 'in', res = 600)
+fig.2.R
+dev.off()
 
