@@ -199,10 +199,7 @@ KLBB_weather <- read_excel("../data/KLBB_weather.xlsx")
 head(KLBB_weather)
 
 annual_precip <- KLBB_weather %>% mutate(Date_Time = ymd_hms(Date_Time), Year = year(Date_Time)) %>% group_by(Year) %>% 
-  summarise(annual_precip = sum(precip_mm, na.rm = TRUE), 
-            annual_precip_diversity_plot = annual_precip / 10,
-            annual_precip_richness_plot = annual_precip / 60,
-            annual_precip_evenness_plot = annual_precip / 30)
+  summarise(annual_precip = sum(precip_mm, na.rm = TRUE))
 
 plot_df <- Summ_spcomp_diversity_ptype_wPlots %>% full_join(annual_precip)
 
@@ -229,40 +226,31 @@ fig.2.D <- ggplot() +
   stat_boxplot(data = subset(plot_df, diversity < 100 & trt != 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'), 
                aes(x = as.factor(Year), y = diversity), size = 0.75, geom = "errorbar", width = 0.2)  +
   geom_boxplot(data = subset(plot_df, diversity < 100 & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
-               aes(as.factor(Year), diversity, fill = as.factor(Year)), outlier.shape = NA) + 
-  scale_fill_manual(values = c("#cc3311", "#33ccee", "#cc3311", 
-                               "#33ccee", "#cc3311", "#33ccee"),
-                    labels = c("2018", "2019", "2020", "2021", "2022", "2023")) + 
+               aes(as.factor(Year), diversity, fill = annual_precip), outlier.shape = NA) + 
+  scale_fill_gradient(low = "#cc3311", high = "#33ccee") + 
   scale_y_continuous(limits = c(0, 45), breaks = seq(0, 45, 15), name = "Simpson's Diversity") + 
   labs(x = "Year") + 
-  guides(fill = "none") + 
   figtheme      
 
 fig.2.R <- ggplot() + 
   stat_boxplot(data = subset(plot_df, richness & trt!= 'Fence' & trt!= 'NPK+Fence' & trt!= 'xControl'),
                aes(as.factor(Year), richness), size = 0.75, geom = "errorbar", width = 0.2) + 
   geom_boxplot(data = subset(plot_df, richness & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
-               aes(as.factor(Year), richness, fill = as.factor(Year)), outlier.shape = NA) + 
-  scale_fill_manual(values = c("#cc3311", "#33ccee", "#cc3311", 
-                               "#33ccee", "#cc3311", "#33ccee"),
-                    labels = c("2018", "2019", "2020", "2021", "2022", "2023")) +
-
+               aes(as.factor(Year), richness, fill = annual_precip), outlier.shape = NA) + 
+  scale_fill_gradient(low = "#cc3311", high = "#33ccee") + 
   scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5),  name = "Species Richness") + 
   labs(x = "Year") + 
-  guides(fill = "none") +
   figtheme                 
+
 
 fig.2.E <- ggplot() + 
   stat_boxplot(data = subset(plot_df, evenness & trt!= 'Fence' &  trt != 'NPK+Fence' & trt != 'xControl'),
                aes(as.factor(Year), evenness), size = 0.75, geom = "errorbar", width = 0.2) +  
   geom_boxplot(data = subset(plot_df, evenness & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
-               aes(as.factor(Year), evenness, fill = as.factor(Year)), outlier.shape = NA) + 
-  scale_fill_manual(values = c("#cc3311", "#33ccee", "#cc3311", 
-                               "#33ccee", "#cc3311", "#33ccee"),
-                    labels = c("2018", "2019", "2020", "2021", "2022", "2023")) +
-  scale_y_continuous(limits = c(0, 20), breaks = seq(0, 20, 5), name = "Species Evenness") + 
+               aes(as.factor(Year), evenness, fill = annual_precip), outlier.shape = NA) + 
+  scale_fill_gradient(low = "#cc3311", high = "#33ccee") + 
+  scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2.5), name = "Species Evenness") + 
   labs(x = "Year") + 
-  guides(fill = "none") + 
   figtheme
 
 
@@ -280,10 +268,13 @@ fig.1.D <- ggplot() +
   stat_boxplot(data = subset(plot_df, diversity < 60 & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
               aes(as.factor(trt), diversity), size = 0.75, geom = "errorbar", width = 0.2) +
   geom_boxplot(data = subset(plot_df, diversity < 60 & trt!= 'Fence' & trt != 'NPK+Fence' & trt != 'xControl'),
-              aes(as.factor(trt), diversity, fill = (as.factor(trt))), outlier.shape = NA, fill = "#882255") + 
+              aes(as.factor(trt), diversity, fill = as.factor(trt)), outlier.shape = NA) + 
+  scale_fill_manual(values = c("gray", "#882255", "#882255", "#882255", "#882255",
+                               "#882255", "#882255", "#882255", "#882255")) + 
+  # fix this (^^) for fig.1.r and fig.1.e (for paper, not poster)
   theme(legend.position = "none") + 
   labs(x = "Treatment",y = "Simpson's Diversity") + 
-  scale_y_continuous(limits = c(0, 50), breaks = seq(0, 50, 10)) +
+  scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, 10)) +
   figtheme + 
   theme(legend.position = "none")
 
