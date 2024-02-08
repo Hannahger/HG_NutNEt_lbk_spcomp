@@ -60,27 +60,29 @@ spcomp_diversity_plottype <- left_join(spcomp_diversity, plot_information)
 head(spcomp_diversity_plottype)
 
 ### Mean entities in which the same plot was sampled twice in the same year. ex) plot 1, 2018, DOY 134 and plot 1, 2018, DOY 289
-Summ_spcomp_diversity_plottype <- spcomp_diversity_plottype %>% group_by(trt, Year) %>%
-         summarise(diversity=mean(diversity,na.rm = T), evenness=mean(evenness, na.rm =T),richness = mean(richness, na.rm=T))
+# Summ_spcomp_diversity_plottype <- spcomp_diversity_plottype %>% group_by(trt, Year) %>%
+#          summarise(diversity=mean(diversity,na.rm = T), evenness=mean(evenness, na.rm =T),richness = mean(richness, na.rm=T))
 
-Summ_spcomp_diversity_ptype_wPlots <- spcomp_diversity_plottype %>% group_by(Plot, Year, trt) %>%
-         summarise(diversity=mean(diversity,na.rm = T), evenness=mean(evenness, na.rm =T),richness = mean(richness, na.rm=T)) %>%
+### remove DOY 159 from year 1 (i.e., 2018)
+spcomp_diversity_plottype_fall <- subset(spcomp_diversity_plottype, DOY > 160)
+
+Summ_spcomp_diversity_ptype_wPlots <- spcomp_diversity_plottype_fall %>%
          mutate(n = ifelse(trt == "N" | trt == "NP" | trt == "NK" | trt == "NPK" | trt == "NPK+Fence", 1, 0),
                 p = ifelse(trt == "P" | trt == "NP" | trt == "PK" | trt == "NPK" | trt == "NPK+Fence", 1, 0),
                 k = ifelse(trt == "K" | trt == "NK" | trt == "PK" | trt == "NPK" | trt == "NPK+Fence", 1, 0))
-plot(Summ_spcomp_diversity_ptype_wPlots)
+# plot(Summ_spcomp_diversity_ptype_wPlots)
 
 ### initial plots to asses basic trends before doing stats
-ggplot (Summ_spcomp_diversity_ptype_wPlots, aes(trt, diversity, color=factor(Year))) + geom_point()
-
-ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
-        aes(Year, diversity, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") +  facet_wrap (~trt)
-
-ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
-        aes(Year, evenness, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~trt)
-
-ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
-        aes(Year, richness, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~trt) + theme_bw()
+# ggplot (Summ_spcomp_diversity_ptype_wPlots, aes(trt, diversity, color=factor(Year))) + geom_point()
+# 
+# ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
+#         aes(Year, diversity, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") +  facet_wrap (~trt)
+# 
+# ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
+#         aes(Year, evenness, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~trt)
+# 
+# ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
+#         aes(Year, richness, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~trt) + theme_bw()
 
 
 ### model making time 
@@ -97,40 +99,88 @@ Summ_spcomp_diversity_ptype_wPlots$block <- 'block2'
 Summ_spcomp_diversity_ptype_wPlots$block[Summ_spcomp_diversity_ptype_wPlots$Plot <15] <- 'block1'
 Summ_spcomp_diversity_ptype_wPlots$block[Summ_spcomp_diversity_ptype_wPlots$Plot >28] <- 'block3'
 
-
 #### remove certain plot types
 spcomp_data_4lmer <- subset(Summ_spcomp_diversity_ptype_wPlots, trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl')
 
-
 #### statistical models of diversity across years
 # testing the hypotheses about treatment impacts on community diversity, accounting for year-to-year differences
-mod_div.year.trt <- lmer(log(diversity) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), data = (spcomp_data_4lmer))  
-plot(resid(mod_div.year.trt) ~ fitted(mod_div.year.trt))
+mod_div.year.trt <- lmer(log(diversity) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), 
+                         data = (spcomp_data_4lmer))  
+plot(resid(mod_div.year.trt) ~ fitted(mod_div.year.trt)) # might need to deal with normality issues
 Anova(mod_div.year.trt) 
 cld(emmeans(mod_div.year.trt, ~yearfac))
 cld(emmeans(mod_div.year.trt, ~nfac*kfac))
 
-mod_rich.year.trt <- lmer(richness ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), data = (spcomp_data_4lmer))  
+mod_rich.year.trt <- lmer(richness ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), 
+                          data = (spcomp_data_4lmer))  
 plot(resid(mod_rich.year.trt) ~ fitted(mod_rich.year.trt))
 Anova(mod_rich.year.trt)  
 cld(emmeans(mod_rich.year.trt, ~yearfac))
 cld(emmeans(mod_rich.year.trt, ~yearfac*nfac))
 cld(emmeans(mod_rich.year.trt, ~nfac*pfac))
 
-mod_evenness.year.trt <- lmer(log(evenness) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), data = (spcomp_data_4lmer))  
-plot(resid(mod_evenness.year.trt) ~ fitted(mod_evenness.year.trt))
+mod_evenness.year.trt <- lmer(log(evenness) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), 
+                              data = (spcomp_data_4lmer))  
+plot(resid(mod_evenness.year.trt) ~ fitted(mod_evenness.year.trt)) # check this
 Anova(mod_evenness.year.trt)  
 cld(emmeans(mod_evenness.year.trt, ~yearfac))
 
+## look at treatment impacts on each plant type
+head(spcomp_data_plants)
+
+### make new column with plant type information
+### what plant types do we have?
+unique(spcomp_data_plants$lifeform)
+unique(spcomp_data_plants$lifespan)
+unique(spcomp_data_plants$ps_path)
+
+### figure out the unknown and NAs >> these are all unknown species
+subset(spcomp_data_plants, lifeform == 'Unknown')
+subset(spcomp_data_plants, lifespan == 'Unknown')
+spcomp_data_plants[770:774,]
+
+### make a subset with the unknowns removed
+spcomp_data_plants_known <- subset(spcomp_data_plants, Code != 'Unknown')
+head(spcomp_data_plants_known)
+spcomp_data_plants_known$Code
+
+### make a new column for plant type
+#### what plant types do we have? c4_perennial_grass, c4_annual_forb, c3_perennial_forb, c3_annual_forb, c3_perennial_shrub
+spcomp_data_plants_known$pft[spcomp_data_plants_known$ps_path == 'C4' & 
+                               spcomp_data_plants_known$lifespan == 'annual' &
+                               spcomp_data_plants_known$lifeform == 'Grass'] <- 'c4_annual_grass'
+spcomp_data_plants_known$pft[spcomp_data_plants_known$ps_path == 'C4' & 
+                               spcomp_data_plants_known$lifespan == 'perennial' &
+                               spcomp_data_plants_known$lifeform == 'Grass'] <- 'c4_perennial_grass'
+spcomp_data_plants_known$pft[spcomp_data_plants_known$ps_path == 'C4' & 
+                               spcomp_data_plants_known$lifespan == 'perennial' &
+                               spcomp_data_plants_known$lifeform == 'Forb'] <- 'c4_perennial_forb'
+spcomp_data_plants_known$pft[spcomp_data_plants_known$ps_path == 'C4' & 
+                               spcomp_data_plants_known$lifespan == 'annual' &
+                               spcomp_data_plants_known$lifeform == 'Forb'] <- 'c4_annual_forb'
+spcomp_data_plants_known$pft[spcomp_data_plants_known$ps_path == 'C3' & 
+                               spcomp_data_plants_known$lifespan == 'annual' &
+                               spcomp_data_plants_known$lifeform == 'Grass'] <- 'c3_annual_grass'
+spcomp_data_plants_known$pft[spcomp_data_plants_known$ps_path == 'C3' & 
+                               spcomp_data_plants_known$lifespan == 'perennial' &
+                               spcomp_data_plants_known$lifeform == 'Grass'] <- 'c3_perennial_grass'
+spcomp_data_plants_known$pft[spcomp_data_plants_known$ps_path == 'C3' & 
+                               spcomp_data_plants_known$lifespan == 'perennial' &
+                               spcomp_data_plants_known$lifeform == 'Forb'] <- 'c3_perennial_forb'
+spcomp_data_plants_known$pft[spcomp_data_plants_known$ps_path == 'C3' & 
+                               spcomp_data_plants_known$lifespan == 'annual' &
+                               spcomp_data_plants_known$lifeform == 'Forb'] <- 'c3_annual_forb'
+spcomp_data_plants_known$pft[spcomp_data_plants_known$ps_path == 'C3' & 
+                               spcomp_data_plants_known$lifespan == 'perennial' &
+                               spcomp_data_plants_known$lifeform == 'Shrub/tree'] <- 'c3_perennial_woody'
+
+### summarise by pft for each plot in each year
 
 # TAKE HOME: treatments have no impact on any metric of diversity in any year
 # but there is significant year-to-year variation, with even (i.e., dry) years having
 # the greatest diversity, lowest richness, but highest evenness
 
-### NEXT STEP: evaluate the treatment impacts on each plant type
-### plant types we have: c4 perennial grasses, c3 annual forbs, c3 perennial forbs, perennial woody (simple for now, but could expand)
-### what needs to be done: assign plant type to each row within "spcomp_data_plants"
-head(spcomp_data_plants)
+### NEXT STEP: summarise each pft by plot within year and fit lmer models (similar to diversity models)
 
 #### statistical models regarding the diversity of plant types across years 
 # testing hypothesis that treatment impacts on plant type (annual to outperform perennial, C3 to ____ C4, forbs to outperform grasses)
