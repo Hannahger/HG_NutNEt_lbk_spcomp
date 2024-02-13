@@ -242,9 +242,9 @@ fig.2.R <- ggplot() +
   scale_y_continuous(limits = c(0, 8), breaks = seq(0, 8, 2.5),  name = "Species Richness") + 
   labs(x = "Year") + 
   labs(fill = "MAP (mm)") +
-  figtheme +
-  theme(legend.key.size = unit(1.0, "cm"), 
-        legend.key.width = unit (0.5, "cm"))
+  figtheme + theme(legend.position = "bottom") +
+
+  theme(legend.key.size = unit(1.5, "cm"), legend.key.height = unit (0.5, "cm"))
 
 
 fig.2.E <- ggplot() + 
@@ -308,25 +308,15 @@ fig.1.E <- ggplot() +     #getting message "Can't add `scale_y_continuous(limits
   figtheme + 
   theme(legend.position = "none")
 
+  
+master.fig <- ggarrange(fig.1.D, fig.2.D, fig.2.R, fig.2.E)
+  
 ## download png's of figures 
 
-png("../plots/fig.1.D.png", 
-    width = 6, height = 6, units = 'in', res = 600)
-fig.1.D
+png("../plots/master.fig.png", 
+    width = 9, height = 8, units = 'in', res = 600)
+master.fig
 dev.off()
 
-png("../plots/fig.2.D.png", 
-    width = 6, height = 6, units = 'in', res = 600)
-fig.2.D
-dev.off()
 
-png("../plots/fig.2.E.png", 
-    width = 6, height = 6, units = 'in', res = 600)
-fig.2.E
-dev.off()
-
-png("../plots/fig.2.R.png", 
-    width = 6, height = 6, units = 'in', res = 600)
-fig.2.R
-dev.off()
 
