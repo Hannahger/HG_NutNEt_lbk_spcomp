@@ -175,6 +175,36 @@ spcomp_data_plants_known$pft[spcomp_data_plants_known$ps_path == 'C3' &
                                spcomp_data_plants_known$lifeform == 'Shrub/tree'] <- 'c3_perennial_woody'
 
 ### summarise by pft for each plot in each year
+spcomp_data_plants_known_groupby_pft_plot_year <- group_by(spcomp_data_plants_known, 
+                                                       pft, Plot, Year, DOY)
+spcomp_data_plants_known_pft_plot_year <- summarise(spcomp_data_plants_known_groupby_pft_plot_year,
+                                                    sum_cover = sum(Percent.Cover, na.rm = T))
+
+### merge with dataframe that has all possible pft, plot, year, doy combinations to add in zeros
+#### create new grouped dataframe with just plot, year, doy to get all possible combos
+spcomp_data_plants_known_groupby_plot_year <- group_by(spcomp_data_plants_known, 
+                                                       Plot, Year, DOY)
+spcomp_data_plants_known_plot_year <- summarise(spcomp_data_plants_known_groupby_plot_year,
+                                                    n = n())
+spcomp_data_plants_known_plot_year_withpfts <- rbind(cbind(spcomp_data_plants_known_plot_year, 
+                                                           rep('c3_annual_forb', 234)),
+                                                     cbind(spcomp_data_plants_known_plot_year, 
+                                                           rep('c3_perennial_forb', 234)),
+                                                     cbind(spcomp_data_plants_known_plot_year, 
+                                                           rep('c3_perennial_woody', 234)),
+                                                     cbind(spcomp_data_plants_known_plot_year, 
+                                                           rep('c4_annual_forb', 234)),
+                                                     cbind(spcomp_data_plants_known_plot_year, 
+                                                           rep('c4_perennial_forb', 234)),
+                                                     cbind(spcomp_data_plants_known_plot_year, 
+                                                           rep('c4_perennial_grass', 234)))
+colnames(spcomp_data_plants_known_plot_year_withpfts)[5] <- 'pft'
+
+spcomp_data_plants_known_pft_plot_year_allcombos <- full_join(spcomp_data_plants_known_plot_year_withpfts, 
+                                                              spcomp_data_plants_known_pft_plot_year)
+
+#### feb 22 next steps: set NA's to 0 and fit lmer models
+
 
 # TAKE HOME: treatments have no impact on any metric of diversity in any year
 # but there is significant year-to-year variation, with even (i.e., dry) years having
