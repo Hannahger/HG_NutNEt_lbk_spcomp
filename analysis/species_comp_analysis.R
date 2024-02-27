@@ -185,7 +185,7 @@ spcomp_data_plants_known_pft_plot_year <- summarise(spcomp_data_plants_known_gro
 spcomp_data_plants_known_groupby_plot_year <- group_by(spcomp_data_plants_known, 
                                                        Plot, Year, DOY)
 spcomp_data_plants_known_plot_year <- summarise(spcomp_data_plants_known_groupby_plot_year,
-                                                    n = n())
+                                                    count = n())
 spcomp_data_plants_known_plot_year_withpfts <- rbind(cbind(spcomp_data_plants_known_plot_year, 
                                                            rep('c3_annual_forb', 234)),
                                                      cbind(spcomp_data_plants_known_plot_year, 
@@ -203,8 +203,80 @@ colnames(spcomp_data_plants_known_plot_year_withpfts)[5] <- 'pft'
 spcomp_data_plants_known_pft_plot_year_allcombos <- full_join(spcomp_data_plants_known_plot_year_withpfts, 
                                                               spcomp_data_plants_known_pft_plot_year)
 
-#### feb 22 next steps: set NA's to 0 and fit lmer models
+### set all NA to 0
+spcomp_data_plants_known_pft_plot_year_allcombos$sum_cover_zeroes <- spcomp_data_plants_known_pft_plot_year_allcombos$sum_cover %>% replace_na(0)
 
+### simplify dataset name and add in plot types
+pft_data <- spcomp_data_plants_known_pft_plot_year_allcombos
+plot_types <- read.csv('../../NutNet_LBK/plot_types/plot_types.csv')
+pft_data_trt <- left_join(pft_data, plot_types[,2:3], by = 'Plot')
+pft_data_trt_types <- pft_data_trt %>%
+  mutate(n = ifelse(trt == "N" | trt == "NP" | trt == "NK" | trt == "NPK" | trt == "NPK+Fence", 1, 0),
+         p = ifelse(trt == "P" | trt == "NP" | trt == "PK" | trt == "NPK" | trt == "NPK+Fence", 1, 0),
+         k = ifelse(trt == "K" | trt == "NK" | trt == "PK" | trt == "NPK" | trt == "NPK+Fence", 1, 0))
+
+#### add in treatment binary factors
+pft_data_trt_types$nfac <- as.factor(pft_data_trt_types$n)
+pft_data_trt_types$pfac <- as.factor(pft_data_trt_types$p)
+pft_data_trt_types$kfac <- as.factor(pft_data_trt_types$k)
+pft_data_trt_types$plotfac <- as.factor(pft_data_trt_types$Plot)
+pft_data_trt_types$yearfac <- as.factor(pft_data_trt_types$Year)
+
+#### add in blocks
+pft_data_trt_types$block <- 'block2'
+pft_data_trt_types$block[pft_data_trt_types$Plot <15] <- 'block1'
+pft_data_trt_types$block[pft_data_trt_types$Plot >28] <- 'block3'
+
+#### remove certain plot types
+pft_data_4lmer <- subset(pft_data_trt_types, trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl' & DOY > 200)
+
+### fit lmer models for pfts
+levels(as.factor(pft_data_4lmer$pft)) # what pfts do we have?
+hist(subset(pft_data_4lmer, pft == 'c3_annual_forb')$sum_cover_zeroes) # ok!
+hist(subset(pft_data_4lmer, pft == 'c3_perennial_forb')$sum_cover_zeroes) # ok!
+hist(subset(pft_data_4lmer, pft == 'c3_perennial_woody')$sum_cover_zeroes) # nope
+hist(subset(pft_data_4lmer, pft == 'c4_annual_forb')$sum_cover_zeroes) # ok!
+hist(subset(pft_data_4lmer, pft == 'c4_perennial_forb')$sum_cover_zeroes) # nope
+hist(subset(pft_data_4lmer, pft == 'c4_perennial_grass')$sum_cover_zeroes) # ok!
+
+#### analysis with all pfts
+all_pft_lmer <- lmer(log(sum_cover_zeroes+0.01) ~ yearfac * nfac * pfac * kfac * pft + (1| plotfac) + (1|block), 
+                            data = subset(pft_data_4lmer, 
+                                          pft != 'c3_perennial_woody' & pft != 'c4_perennial_forb' & yearfac != '2018'))  
+plot(resid(all_pft_lmer) ~ fitted(all_pft_lmer)) # check this
+Anova(all_pft_lmer)  
+cld(emmeans(all_pft_lmer, ~yearfac, at = list(pft = 'c3_annual_forb'))) # highest in odd years
+cld(emmeans(all_pft_lmer, ~yearfac, at = list(pft = 'c4_annual_forb'))) # no even/odd split, lowest in 2019, highest in 2021
+cld(emmeans(all_pft_lmer, ~yearfac, at = list(pft = 'c3_perennial_forb'))) # high in 2020
+cld(emmeans(all_pft_lmer, ~yearfac, at = list(pft = 'c4_perennial_grass'))) # low in 2020
+cld(emmeans(all_pft_lmer, ~nfac*pft))
+
+#### by pft analysis
+c3_annual_forb_lmer <- lmer(log(sum_cover_zeroes+0.01) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), 
+                              data = subset(pft_data_4lmer, pft == 'c3_annual_forb'))  
+plot(resid(c3_annual_forb_lmer) ~ fitted(c3_annual_forb_lmer)) # check this
+Anova(c3_annual_forb_lmer)  
+cld(emmeans(c3_annual_forb_lmer, ~yearfac)) # highest in odd (wet) years
+cld(emmeans(c3_annual_forb_lmer, ~pfac*kfac)) # highest in P+K (non-sig)
+
+c3_perennial_forb_lmer <- lmer(log(sum_cover_zeroes+0.01) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), 
+                            data = subset(pft_data_4lmer, pft == 'c3_perennial_forb'))  
+plot(resid(c3_perennial_forb_lmer) ~ fitted(c3_perennial_forb_lmer)) # check this
+Anova(c3_perennial_forb_lmer)  
+cld(emmeans(c3_perennial_forb_lmer, ~yearfac)) # highest in even (dry) years
+cld(emmeans(c3_perennial_forb_lmer, ~nfac)) # highest in low n (non-sig)
+
+c4_annual_forb_lmer <- lmer(log(sum_cover_zeroes+0.01) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), 
+                               data = subset(pft_data_4lmer, pft == 'c4_annual_forb'))  
+plot(resid(c4_annual_forb_lmer) ~ fitted(c4_annual_forb_lmer)) # check this
+Anova(c4_annual_forb_lmer)  
+cld(emmeans(c4_annual_forb_lmer, ~yearfac)) # highest in odd (wet) years, but lots of variability
+
+c4_perennial_grass_lmer <- lmer(log(sum_cover_zeroes+0.01) ~ yearfac * nfac * pfac * kfac + (1| plotfac) + (1|block), 
+                            data = subset(pft_data_4lmer, pft == 'c4_perennial_grass'))  
+plot(resid(c4_perennial_grass_lmer) ~ fitted(c4_perennial_grass_lmer)) # check this
+Anova(c4_perennial_grass_lmer)  
+cld(emmeans(c4_perennial_grass_lmer, ~yearfac)) # highest in odd (wet) years, but lots of variability
 
 # TAKE HOME: treatments have no impact on any metric of diversity in any year
 # but there is significant year-to-year variation, with even (i.e., dry) years having
