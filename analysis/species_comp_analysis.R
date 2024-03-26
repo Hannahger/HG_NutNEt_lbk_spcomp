@@ -18,6 +18,10 @@ library(lubridate)
 library(ggpubr)
 library(patchwork)
 
+###############################################################################
+## Cleaning
+###############################################################################
+
 ## load data
 spcomp_data <- read.csv("../data/species_comp.csv")
 
@@ -70,22 +74,11 @@ Summ_spcomp_diversity_ptype_wPlots <- spcomp_diversity_plottype_fall %>%
          mutate(n = ifelse(trt == "N" | trt == "NP" | trt == "NK" | trt == "NPK" | trt == "NPK+Fence", 1, 0),
                 p = ifelse(trt == "P" | trt == "NP" | trt == "PK" | trt == "NPK" | trt == "NPK+Fence", 1, 0),
                 k = ifelse(trt == "K" | trt == "NK" | trt == "PK" | trt == "NPK" | trt == "NPK+Fence", 1, 0))
-# plot(Summ_spcomp_diversity_ptype_wPlots)
-
-### initial plots to asses basic trends before doing stats
-# ggplot (Summ_spcomp_diversity_ptype_wPlots, aes(trt, diversity, color=factor(Year))) + geom_point()
-# 
-# ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
-#         aes(Year, diversity, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") +  facet_wrap (~trt)
-# 
-# ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
-#         aes(Year, evenness, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~trt)
-# 
-# ggplot (subset(Summ_spcomp_diversity_ptype_wPlots, diversity<100 & trt!= 'Fence'& trt != 'NPK+Fence'& trt != 'xControl'), 
-#         aes(Year, richness, fill=factor(trt))) + geom_point() + geom_bar(stat = "identity",position = "dodge") + facet_wrap (~trt) + theme_bw()
 
 
+###############################################################################
 ### model making time 
+###############################################################################
 
 #### add in treatment binary factors
 Summ_spcomp_diversity_ptype_wPlots$nfac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$n)
@@ -295,8 +288,8 @@ cld(emmeans(c4_perennial_grass_lmer, ~yearfac)) # highest in odd (wet) years, bu
 #Summ_spcomp_diversity_ptype_wPlots$lifespan_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$lifespan)
 #Summ_spcomp_diversity_ptype_wPlots$ps_path_fac <- as.factor(Summ_spcomp_diversity_ptype_wPlots$ps_path)
 
-
 ## climate 
+### MK/HG Notes 2024/03/25: Plot_df made for TTABS figures, once precip in modesl can discard.  
 KLBB_weather <- read_excel("../data/KLBB_weather.xlsx")
 head(KLBB_weather)
 
@@ -305,7 +298,10 @@ annual_precip <- KLBB_weather %>% mutate(Date_Time = ymd_hms(Date_Time), Year = 
 
 plot_df <- Summ_spcomp_diversity_ptype_wPlots %>% full_join(annual_precip)
 
-## making figures for TTABSS
+
+###############################################################################
+### making figures for TTABSS
+###############################################################################
 
 # fig theme; Thank you Evan for letting me steal this :)
 
